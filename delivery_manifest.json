@@ -1,0 +1,120 @@
+{
+  "bundle": "core_eval_delivery_1000_20260911",
+  "generated_at_utc": "2026-09-11T03:02:32.408791+00:00",
+  "benchmark": {
+    "path": "benchmark/benchmark_1000.jsonl",
+    "num_items": 1000,
+    "unique_query_ids": 1000,
+    "sha256": "824c03d9181b08f88204d194fd8ce338fe235341db01bfb95f260cc21cfa2239"
+  },
+  "judge": "deepseek-v4-flash-0731",
+  "protocols": [
+    "10d_experience",
+    "balanced_4d"
+  ],
+  "models": {
+    "harmonic_step600": {
+      "display_name": "Harmonic0830 Step600",
+      "responses": 1000,
+      "deepseek_10d_scores": 1000,
+      "deepseek_4d_scores": 1000,
+      "query_id_set_matches_benchmark": true,
+      "response_text_matches_both_score_files": true,
+      "paths": {
+        "responses": "models/harmonic_step600/responses.jsonl",
+        "deepseek_10d_scores": "models/harmonic_step600/deepseek_scores_10d.jsonl",
+        "deepseek_10d_summary": "models/harmonic_step600/deepseek_summary_10d.json",
+        "deepseek_4d_scores": "models/harmonic_step600/deepseek_scores_4d.jsonl",
+        "deepseek_4d_summary": "models/harmonic_step600/deepseek_summary_4d.json",
+        "combined": "models/harmonic_step600/combined_results.jsonl"
+      }
+    },
+    "opsd_step900": {
+      "display_name": "OPSD Step900",
+      "responses": 1000,
+      "deepseek_10d_scores": 1000,
+      "deepseek_4d_scores": 1000,
+      "query_id_set_matches_benchmark": true,
+      "response_text_matches_both_score_files": true,
+      "paths": {
+        "responses": "models/opsd_step900/responses.jsonl",
+        "deepseek_10d_scores": "models/opsd_step900/deepseek_scores_10d.jsonl",
+        "deepseek_10d_summary": "models/opsd_step900/deepseek_summary_10d.json",
+        "deepseek_4d_scores": "models/opsd_step900/deepseek_scores_4d.jsonl",
+        "deepseek_4d_summary": "models/opsd_step900/deepseek_summary_4d.json",
+        "combined": "models/opsd_step900/combined_results.jsonl"
+      }
+    },
+    "opsd_step1192": {
+      "display_name": "OPSD Step1192",
+      "responses": 1000,
+      "deepseek_10d_scores": 1000,
+      "deepseek_4d_scores": 1000,
+      "query_id_set_matches_benchmark": true,
+      "response_text_matches_both_score_files": true,
+      "paths": {
+        "responses": "models/opsd_step1192/responses.jsonl",
+        "deepseek_10d_scores": "models/opsd_step1192/deepseek_scores_10d.jsonl",
+        "deepseek_10d_summary": "models/opsd_step1192/deepseek_summary_10d.json",
+        "deepseek_4d_scores": "models/opsd_step1192/deepseek_scores_4d.jsonl",
+        "deepseek_4d_summary": "models/opsd_step1192/deepseek_summary_4d.json",
+        "combined": "models/opsd_step1192/combined_results.jsonl"
+      }
+    },
+    "qwen35_9b_base": {
+      "display_name": "Qwen3.5-9B 原版",
+      "responses": 1000,
+      "deepseek_10d_scores": 1000,
+      "deepseek_4d_scores": 1000,
+      "query_id_set_matches_benchmark": true,
+      "response_text_matches_both_score_files": true,
+      "paths": {
+        "responses": "models/qwen35_9b_base/responses.jsonl",
+        "deepseek_10d_scores": "models/qwen35_9b_base/deepseek_scores_10d.jsonl",
+        "deepseek_10d_summary": "models/qwen35_9b_base/deepseek_summary_10d.json",
+        "deepseek_4d_scores": "models/qwen35_9b_base/deepseek_scores_4d.jsonl",
+        "deepseek_4d_summary": "models/qwen35_9b_base/deepseek_summary_4d.json",
+        "combined": "models/qwen35_9b_base/combined_results.jsonl"
+      }
+    },
+    "gpt_oss_20b": {
+      "display_name": "GPT-OSS-20B",
+      "responses": 1000,
+      "deepseek_10d_scores": 1000,
+      "deepseek_4d_scores": 1000,
+      "query_id_set_matches_benchmark": true,
+      "response_text_matches_both_score_files": true,
+      "paths": {
+        "responses": "models/gpt_oss_20b/responses.jsonl",
+        "deepseek_10d_scores": "models/gpt_oss_20b/deepseek_scores_10d.jsonl",
+        "deepseek_10d_summary": "models/gpt_oss_20b/deepseek_summary_10d.json",
+        "deepseek_4d_scores": "models/gpt_oss_20b/deepseek_scores_4d.jsonl",
+        "deepseek_4d_summary": "models/gpt_oss_20b/deepseek_summary_4d.json",
+        "combined": "models/gpt_oss_20b/combined_results.jsonl"
+      }
+    },
+    "gpt_4o": {
+      "display_name": "GPT-4o",
+      "responses": 1000,
+      "deepseek_10d_scores": 1000,
+      "deepseek_4d_scores": 1000,
+      "query_id_set_matches_benchmark": true,
+      "response_text_matches_both_score_files": true,
+      "paths": {
+        "responses": "models/gpt_4o/responses.jsonl",
+        "deepseek_10d_scores": "models/gpt_4o/deepseek_scores_10d.jsonl",
+        "deepseek_10d_summary": "models/gpt_4o/deepseek_summary_10d.json",
+        "deepseek_4d_scores": "models/gpt_4o/deepseek_scores_4d.jsonl",
+        "deepseek_4d_summary": "models/gpt_4o/deepseek_summary_4d.json",
+        "combined": "models/gpt_4o/combined_results.jsonl"
+      }
+    }
+  },
+  "validation": {
+    "all_counts_complete": true,
+    "all_query_id_sets_match": true,
+    "all_response_texts_match_score_inputs": true,
+    "all_summary_api_errors_zero": true,
+    "all_summary_parse_failures_zero": true
+  }
+}
