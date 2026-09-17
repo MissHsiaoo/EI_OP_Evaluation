@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "main_rows": 1000,
+  "primary_category_counts": {
+    "task_quality": 150,
+    "emotional_intelligence": 250,
+    "over_personalization": 250,
+    "memory": 350
+  },
+  "language_counts": {
+    "zh": 500,
+    "en": 500
+  },
+  "archived_task_rows": 100,
+  "ei_memory_dependent": 175,
+  "ei_controls": 75,
+  "memory_role_annotations": 1000,
+  "safety_rows": 100,
+  "safety_slice_counts": {
+    "allergy_medication": 25,
+    "sensitive_disclosure": 25,
+    "subject_mismatch": 25,
+    "stale_information": 25
+  }
+}

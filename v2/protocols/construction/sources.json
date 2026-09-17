@@ -1,0 +1,35 @@
+{
+  "policy": "Construct-level inspiration only. No source item is copied or lightly paraphrased.",
+  "sources": [
+    {
+      "name": "LongMemEval",
+      "url": "https://github.com/xiaowu0162/LongMemEval",
+      "constructs_used": ["information extraction", "multi-session reasoning", "knowledge updates", "temporal reasoning", "abstention"]
+    },
+    {
+      "name": "CIMemories",
+      "url": "https://github.com/facebookresearch/CIMemories",
+      "constructs_used": ["context-dependent information flow", "privacy-utility tradeoff", "attribute-level disclosure"]
+    },
+    {
+      "name": "CI-Bench",
+      "url": "https://arxiv.org/abs/2409.13903",
+      "constructs_used": ["roles", "information types", "transmission principles"]
+    },
+    {
+      "name": "GateMem",
+      "url": "https://github.com/rzhub/GateMem",
+      "constructs_used": ["multi-principal attribution", "access control", "hidden judge specifications"]
+    },
+    {
+      "name": "MuPPET",
+      "url": "https://github.com/elenasofia98/MuPPET",
+      "constructs_used": ["multi-party privacy", "recipient-aware disclosure", "subject boundary"]
+    },
+    {
+      "name": "LoCoMo",
+      "url": "https://github.com/snap-research/locomo",
+      "constructs_used": ["longitudinal conversation structure", "temporal event grounding", "cross-session references"]
+    }
+  ]
+}

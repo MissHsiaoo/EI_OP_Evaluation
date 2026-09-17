@@ -1,0 +1,218 @@
+{
+  "type": "object",
+  "properties": {
+    "整体满意度": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "对话意愿": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "情绪愉悦度": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "意图判断准确": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "记忆信息准确": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "信息内容表达清晰": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "交流流畅": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "情感表达恰当": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "风格恰当": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "社会智能": {
+      "type": "object",
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "score",
+        "reason"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "整体满意度",
+    "对话意愿",
+    "情绪愉悦度",
+    "意图判断准确",
+    "记忆信息准确",
+    "信息内容表达清晰",
+    "交流流畅",
+    "情感表达恰当",
+    "风格恰当",
+    "社会智能"
+  ],
+  "additionalProperties": false
+}

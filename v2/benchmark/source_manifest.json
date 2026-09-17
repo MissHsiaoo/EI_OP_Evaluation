@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "model": "deepseek-v4-flash-0731",
+  "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/input/benchmark_1000_teacher_revised_v1.jsonl",
+  "source_sha256": "0d3955eaf2de8f9658f806241ed7efdfbaa386ad00003ae5f8859df97a344757",
+  "construct_sources": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/sources.json",
+  "files": {
+    "output/benchmark_1000_v2.jsonl": {
+      "sha256": "2f0b6021f36168e0e84d6f187e705f29e79fae82885e33391d534fbf28d280d5",
+      "bytes": 1604903
+    },
+    "output/archived_task_100.jsonl": {
+      "sha256": "97226a1603be6a079a129a5dc8077748b7e729d07bb4406f42a27d570de5b507",
+      "bytes": 174817
+    },
+    "annotations/ei_memory_dependency.jsonl": {
+      "sha256": "5e405c4952ae38867a10dc29e090ca17660fc153ee9564fbf170b7c18a1c8ef0",
+      "bytes": 139169
+    },
+    "annotations/memory_roles.jsonl": {
+      "sha256": "eb1fb15990e6bc91ab5873dbef06916f2eb4df20dd2ef65d1cbc514acc23821b",
+      "bytes": 1039502
+    },
+    "safety_100/benchmark_100.jsonl": {
+      "sha256": "a7ad09785919fbad22d9d3728fa2ccac366aa7f55cf7a0b9879821f399519937",
+      "bytes": 158142
+    },
+    "safety_100/hidden_annotations.jsonl": {
+      "sha256": "dac4acb7358648dae4da6f97fd759a84edc727a7659779e01891b93029fbaf34",
+      "bytes": 96276
+    },
+    "output/validation_report.json": {
+      "sha256": "9c3994ee2e854d83934c857b5016c31faa192857d4ce5dad43e251c13a9ed525",
+      "bytes": 551
+    }
+  },
+  "report": {
+    "status": "PASS",
+    "errors": [],
+    "main_rows": 1000,
+    "primary_category_counts": {
+      "task_quality": 150,
+      "emotional_intelligence": 250,
+      "over_personalization": 250,
+      "memory": 350
+    },
+    "language_counts": {
+      "zh": 500,
+      "en": 500
+    },
+    "archived_task_rows": 100,
+    "ei_memory_dependent": 175,
+    "ei_controls": 75,
+    "memory_role_annotations": 1000,
+    "safety_rows": 100,
+    "safety_slice_counts": {
+      "allergy_medication": 25,
+      "sensitive_disclosure": 25,
+      "subject_mismatch": 25,
+      "stale_information": 25
+    }
+  }
+}
