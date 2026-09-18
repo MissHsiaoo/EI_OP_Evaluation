@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "protocol": "balanced_four_dim_v2_no_gold_op_penalty",
+  "judge": "deepseek-v4-flash-0731",
+  "datasets": {
+    "early": {
+      "benchmark_sha256": "824c03d9181b08f88204d194fd8ce338fe235341db01bfb95f260cc21cfa2239",
+      "num_items": 1000,
+      "models": {
+        "opsd_step900": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "models/opsd_step900/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "models/opsd_step900/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "models/opsd_step900/deepseek_summary_4d.json"
+          }
+        },
+        "opsd_step1192": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "models/opsd_step1192/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "models/opsd_step1192/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "models/opsd_step1192/deepseek_summary_4d.json"
+          }
+        },
+        "qwen35_9b_base": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "models/qwen35_9b_base/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "models/qwen35_9b_base/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "models/qwen35_9b_base/deepseek_summary_4d.json"
+          }
+        },
+        "gpt_4o": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "models/gpt_4o/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "models/gpt_4o/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "models/gpt_4o/deepseek_summary_4d.json"
+          }
+        },
+        "harmonic_step600": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "models/harmonic_step600/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "models/harmonic_step600/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "models/harmonic_step600/deepseek_summary_4d.json"
+          }
+        },
+        "gpt_oss_20b": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "models/gpt_oss_20b/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "models/gpt_oss_20b/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "models/gpt_oss_20b/deepseek_summary_4d.json"
+          }
+        }
+      }
+    },
+    "teacher": {
+      "benchmark_sha256": "2f0b6021f36168e0e84d6f187e705f29e79fae82885e33391d534fbf28d280d5",
+      "num_items": 1000,
+      "models": {
+        "opsd_step900": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "v2/models/opsd_step900/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "v2/models/opsd_step900/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "v2/models/opsd_step900/deepseek_summary_4d.json"
+          }
+        },
+        "opsd_step1192": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "v2/models/opsd_step1192/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "v2/models/opsd_step1192/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "v2/models/opsd_step1192/deepseek_summary_4d.json"
+          }
+        },
+        "qwen35_9b_base": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "v2/models/qwen35_9b_base/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "v2/models/qwen35_9b_base/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "v2/models/qwen35_9b_base/deepseek_summary_4d.json"
+          }
+        },
+        "harmonic_step600": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "v2/models/harmonic_step600/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "v2/models/harmonic_step600/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "v2/models/harmonic_step600/deepseek_summary_4d.json"
+          }
+        },
+        "gpt_oss_20b": {
+          "num_items": 1000,
+          "unique_query_ids": 1000,
+          "query_memory_prompt_match_benchmark": true,
+          "response_matches_inference": true,
+          "derived_and_summary_recomputed": true,
+          "paths": {
+            "responses.jsonl": "v2/models/gpt_oss_20b/responses.jsonl",
+            "deepseek_scores_4d.jsonl": "v2/models/gpt_oss_20b/deepseek_scores_4d.jsonl",
+            "deepseek_summary_4d.json": "v2/models/gpt_oss_20b/deepseek_summary_4d.json"
+          }
+        }
+      }
+    }
+  },
+  "source_manifest": "reports/balanced4_source_manifest.json"
+}

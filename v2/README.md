@@ -1,6 +1,6 @@
 # 1000题个性化对话评测 v2
 
-沿用 v1 的 JSONL、protocols、manifest 和 SHA256 校验格式；独立保存，不覆盖原题库和历史结果。本次只交付 benchmark 与评分协议，跑分尚未作为本版本结果发布。
+沿用 v1 的 JSONL、protocols、manifest 和 SHA256 校验格式；独立保存，不覆盖原题库和历史结果。2026-09-18补充五个模型各1000题的DeepSeek平衡四维评分，来自共享NAS现有结果。
 
 ## 内容结构
 
@@ -15,12 +15,23 @@
 - `protocols/10d_v1/`：原十维评分标准、可读 prompt、输出 schema、完整评分脚本。
 - `protocols/10d_v2/`：新版统一十维标准与场景指导、可读 prompt、输出 schema、完整评分脚本。
 - `protocols/evaluate_4d.py`：保留的四维平衡评分实现。
+- `protocols/balanced4_scoring_snapshot/evaluate_4d.py`：此次评分NAS来源脚本的精确快照；与通用入口分开保留。
+- `models/<model>/responses.jsonl`：新题库已有的1000条原始模型回答。
+- `models/<model>/deepseek_scores_4d.jsonl`：1000条平衡四维评分、六项直接分数、逐维理由及派生分。
+- `models/<model>/deepseek_summary_4d.json`：NAS原始汇总文件，逐字节保留。
+- `summary_table.md` / `summary_table.csv`：五模型四维均分、调和分、OP惩罚后最终分及低OP题数。
 - `protocols/evaluate_safety.py`：独立安全集评分实现。
 - `protocols/construction/`：v2生成/审计/隐藏标注脚本与构念参考来源。
 - `tools/build_metadata.py`：离线验收数据、导出两版 prompt/schema、生成 manifest 和校验值；不调用模型 API。
 - `delivery_manifest.json` / `SHA256SUMS.txt`：本交付版本的数量、协议编号和文件校验信息。
 
-本次没有新增 `models/`、`summary_table.*`、`all_models_by_question.jsonl` 或分数报告。仓库根目录这些文件均属于原 v1，不能作为新题库的结果。
+本次新增 `models/` 和 `summary_table.*`。没有发布新题库十维、安全集评分或 `all_models_by_question.jsonl`。仓库根目录同名文件仍属于早期 v1，不能作为新题库的结果。GPT-4o尚无本次修订题库评分，不补入旧题库分数。
+
+## 平衡四维结果
+
+查看[五模型结果表](summary_table.md)和[两套题库对照与口径说明](../reports/balanced4_versions.md)。Judge为`deepseek-v4-flash-0731`，协议为`balanced_four_dim_v2_no_gold_op_penalty`。两套题库的平衡四维评分标准相同；修订题库来源脚本额外指定题库SHA256并增加JSON理由格式要求，完整脚本已归档。
+
+表格使用`summary.json`的`mean_per_item`：先对每题计算，再对1000题求平均。`four_dim_macro`、`four_dim_harmonic`与`final_op_penalized_score`分别列出，不能与先求维度均值后聚合的`aggregate_of_dimension_means`混用。3.5–3.8分的旧严格四维属于另一协议，不是这里的“旧数据版平衡四维”。
 
 ## 数据构成
 
@@ -103,6 +114,7 @@ python3 v2/protocols/10d_v2/evaluate_10d.py \
 
 ```bash
 python3 v2/tools/build_metadata.py
+python3 tools/verify_balanced_results.py
 cd v2
 shasum -a 256 -c SHA256SUMS.txt
 ```

@@ -3,8 +3,19 @@
 ## 版本入口
 
 - 本目录原有 `benchmark/`、`models/`、`summary_table.*`、`reports/` 是 **v1 结果快照**，保留不变。
-- [`v2/README.md`](v2/README.md) 是新增的 **v2 数据与协议交付**：修订后的1000题、独立100题安全集、两版十维 Judge prompt 及可运行实现。
-- v2 本次仅更新数据、协议与校验工具，**不发布或覆盖任何跑分数据**；根目录分数仍属于 v1，不是 v2 新题库分数。
+- [`v2/README.md`](v2/README.md) 是 **v2 修订题库与协议交付**：修订后的1000题、独立100题安全集、两版十维 Judge prompt 及可运行实现。现已补充五个模型的 DeepSeek 平衡四维逐题评分、原始回答与汇总。
+- 根目录分数属于早期 v1 题库（六模型，含 GPT-4o）；`v2/summary_table.*` 属于修订题库（五模型，无 GPT-4o）。两套题库使用同一平衡四维评分标准，不能交叉混用题目或分数。
+- [两套题库平衡四维结果对照](reports/balanced4_versions.md)：区分四维均分、四维调和分、OP惩罚后最终分，并说明3.5–3.8分的历史严格四维是另一套评分协议。
+
+## 2026-09-18 评分结果更新
+
+从共享NAS同步已有评分，没有重新生成回答或调用Judge。早期六模型的评分与汇总文件与NAS逐字节一致，保留原样；新增修订题库五模型各1000条平衡四维评分。
+
+- [修订题库分数表](v2/summary_table.md) / [CSV](v2/summary_table.csv)
+- [两套题库对照表](reports/balanced4_versions.md) / [CSV](reports/balanced4_versions.csv)
+- [11000条结果验收](reports/balanced4_validation.json) / [NAS来源与SHA256](reports/balanced4_source_manifest.json)
+
+新题库本次只发布平衡四维结果，没有将NAS中的十维、安全集或其他实验结果混入本次更新。根目录原有十维结果继续保留。
 
 本目录是可直接交付的完整结果集合，包含同一批1000道题、六个模型的逐题回答、DeepSeek十维评分、新版四维平衡评分、逐题评分理由与汇总报告。
 

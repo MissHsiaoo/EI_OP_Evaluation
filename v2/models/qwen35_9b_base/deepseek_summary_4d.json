@@ -1,0 +1,54 @@
+{
+  "protocol": "balanced_four_dim_v2_no_gold_op_penalty",
+  "target_model": "qwen35_9b_base",
+  "judge_model": "deepseek-v4-flash-0731",
+  "num_items": 1000,
+  "api_errors": 0,
+  "parse_failures": 0,
+  "input_sha256": "83cff42d97325eccf1d875d69583132a7d58aaf06511374e282c28f6a961fd5d",
+  "dataset_sha256": "2f0b6021f36168e0e84d6f187e705f29e79fae82885e33391d534fbf28d280d5",
+  "direct_dimension_averages": {
+    "task_quality": 4.608,
+    "memory_usage": 4.689,
+    "over_personalization_restraint": 4.796,
+    "resonation": 4.126,
+    "expression": 4.643,
+    "reception": 4.623
+  },
+  "aggregate_of_dimension_means": {
+    "emotional_intelligence_harmonic": 4.45068706981804,
+    "four_dim_macro": 4.63592176745451,
+    "four_dim_harmonic": 4.632468748554036
+  },
+  "mean_per_item": {
+    "emotional_intelligence_harmonic": 4.4355338661338655,
+    "four_dim_macro": 4.632133466533467,
+    "four_dim_harmonic": 4.608184015163426,
+    "final_op_penalized_score": 4.605378280773283
+  },
+  "op_score_distribution": {
+    "1": 0,
+    "2": 12,
+    "3": 11,
+    "4": 146,
+    "5": 831
+  },
+  "groups": {
+    "emotional_intelligence": {
+      "count": 250,
+      "mean_final_op_penalized_score": 4.602536643236904
+    },
+    "memory": {
+      "count": 350,
+      "mean_final_op_penalized_score": 4.573274479740735
+    },
+    "over_personalization": {
+      "count": 250,
+      "mean_final_op_penalized_score": 4.626704058899134
+    },
+    "task_quality": {
+      "count": 150,
+      "mean_final_op_penalized_score": 4.649480248866774
+    }
+  }
+}

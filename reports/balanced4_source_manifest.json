@@ -1,0 +1,150 @@
+{
+  "verified_at": "2026-09-18",
+  "source_host": "Song3 shared NAS",
+  "operation": "copy existing results; no new inference or judging",
+  "old_snapshot_unchanged": true,
+  "teacher_models": 5,
+  "early_models": 6,
+  "files": {
+    "models/harmonic_step600/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/harmonic0830_step600/deepseek/results.jsonl",
+      "sha256": "75d903ba8c5a1fe84154c8b824cf3abd8e760314a7cf6d8ea30f064f72a7a24f",
+      "bytes": 9660283
+    },
+    "models/harmonic_step600/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/harmonic0830_step600/deepseek/summary.json",
+      "sha256": "e98de496a5d16a6769672fac58bb020bdb780c0ad50c95d036500c310c262aff",
+      "bytes": 1546
+    },
+    "models/opsd_step900/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/qwen35_9b_grpo_opsd_step900/deepseek/results.jsonl",
+      "sha256": "7161713a888b217fd7e32316c7e3fc38cf4db17ac54fb80b62c1c2972865e3fa",
+      "bytes": 8898847
+    },
+    "models/opsd_step900/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/qwen35_9b_grpo_opsd_step900/deepseek/summary.json",
+      "sha256": "1315a781be9f18baf02a92df40528b5c18797cd14f8fa69a5a244bd03e1342b1",
+      "bytes": 1555
+    },
+    "models/opsd_step1192/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/qwen35_9b_grpo_opsd_step1192/deepseek/results.jsonl",
+      "sha256": "bc69995936e6587812ae74bf3e9c8d8f0912f97c15ee03c349c3a0e29c821867",
+      "bytes": 9052286
+    },
+    "models/opsd_step1192/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/qwen35_9b_grpo_opsd_step1192/deepseek/summary.json",
+      "sha256": "790e5992c4d1f091af4df8ad588ff5a2091f9a8ab36aa32eef027358f33c8c03",
+      "bytes": 1554
+    },
+    "models/qwen35_9b_base/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/qwen35_9b/deepseek/results.jsonl",
+      "sha256": "efefd7ed4b04f81ce020b8abdded72f930a9b1e37ddc3edae4785d0455180a07",
+      "bytes": 7148374
+    },
+    "models/qwen35_9b_base/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/qwen35_9b/deepseek/summary.json",
+      "sha256": "db5a1d3fcfa0453a61207fe3be9b0a1936f2a6c94b26bb5690c48679774fb58e",
+      "bytes": 1533
+    },
+    "models/gpt_4o/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/gpt_4o/deepseek/results.jsonl",
+      "sha256": "fae04120d917dcaa63bb964c0f6f18f474fd28c69cbbec711d5cfd691e88f054",
+      "bytes": 6535858
+    },
+    "models/gpt_4o/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/gpt_4o/deepseek/summary.json",
+      "sha256": "d08620765f065ba09ce3d76469bd18afb35845dd4e44ad1deee11b803db302db",
+      "bytes": 1531
+    },
+    "models/gpt_oss_20b/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/gpt_oss_20b/deepseek/results.jsonl",
+      "sha256": "7ec949e5b578adb360a1d9f8dbf6f0273fc4c34b883caac719facd3f12c74d2a",
+      "bytes": 9328869
+    },
+    "models/gpt_oss_20b/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_balanced_v2/results/gpt_oss_20b/deepseek/summary.json",
+      "sha256": "008836c1877490068de4c79e125ca639328fa3437e9bfb62857ae0e24529e2ce",
+      "bytes": 1541
+    },
+    "v2/models/harmonic_step600/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/harmonic0830_step600/judges_balanced4/deepseek/results.jsonl",
+      "sha256": "70089819f97e11be06d36843c4d65a8ffebdeb62c520bf820ee79a4ff22ef970",
+      "bytes": 9601584
+    },
+    "v2/models/harmonic_step600/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/harmonic0830_step600/judges_balanced4/deepseek/summary.json",
+      "sha256": "1e753ff8770f1111908b42ed1360f35f47e0ae074c9b2bbc9e9bf05626fe8de2",
+      "bytes": 1548
+    },
+    "v2/models/harmonic_step600/responses.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/harmonic0830_step600/inference_results.jsonl",
+      "sha256": "536e61a95ebdea5a6190eb6d3ca990a84f17bf76dd1e9859bb74cfdae54c8540",
+      "bytes": 5351329
+    },
+    "v2/models/opsd_step900/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_grpo_opsd_step900/judges_balanced4/deepseek/results.jsonl",
+      "sha256": "860058835c2b70c3b9bee78187b5b93e813c7dd731101530d8a8b8015f7a60c5",
+      "bytes": 8853966
+    },
+    "v2/models/opsd_step900/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_grpo_opsd_step900/judges_balanced4/deepseek/summary.json",
+      "sha256": "3ebe7d08c6375af8dd398a3d68b96cb44620e2d6b6b3a325a81e945efc0029b2",
+      "bytes": 1553
+    },
+    "v2/models/opsd_step900/responses.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_grpo_opsd_step900/inference_results.jsonl",
+      "sha256": "2995a01d5407ce755352212db88fedc0b0d0d978ec294f8ea8acc71d4b5bcb63",
+      "bytes": 4806143
+    },
+    "v2/models/opsd_step1192/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_grpo_opsd_step1192/judges_balanced4/deepseek/results.jsonl",
+      "sha256": "4b39e011a54defd1ca77589d5b623ea7a739bb20cc7269aae221ad33d9e47917",
+      "bytes": 9009852
+    },
+    "v2/models/opsd_step1192/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_grpo_opsd_step1192/judges_balanced4/deepseek/summary.json",
+      "sha256": "005000836cc883cbfccbaf7272f6eb1230d83915d0fe7bf472f692929ecc986d",
+      "bytes": 1552
+    },
+    "v2/models/opsd_step1192/responses.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_grpo_opsd_step1192/inference_results.jsonl",
+      "sha256": "7934cf16f113a331728a5d0dca758d9f2fac27aaf3c967bfd37d2882d11d0bda",
+      "bytes": 4879612
+    },
+    "v2/models/qwen35_9b_base/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_base/judges_balanced4/deepseek/results.jsonl",
+      "sha256": "76f3301c456020b06947b1d02c1d5d560648ff7a2228c513b376cc95780064ab",
+      "bytes": 7071336
+    },
+    "v2/models/qwen35_9b_base/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_base/judges_balanced4/deepseek/summary.json",
+      "sha256": "ebce59c3a679afa9b1dc31640a3a7e1929eddbaff53fc5dfb817e84ecf9bfb17",
+      "bytes": 1540
+    },
+    "v2/models/qwen35_9b_base/responses.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/qwen35_9b_base/inference_results.jsonl",
+      "sha256": "83cff42d97325eccf1d875d69583132a7d58aaf06511374e282c28f6a961fd5d",
+      "bytes": 3227691
+    },
+    "v2/models/gpt_oss_20b/deepseek_scores_4d.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/gpt_oss_20b/judges_balanced4/deepseek/results.jsonl",
+      "sha256": "c80df6c52dcbc1245bd1b3ff53e419ed7f4d3d13b93e557767098c1cd6fe212a",
+      "bytes": 9089473
+    },
+    "v2/models/gpt_oss_20b/deepseek_summary_4d.json": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/gpt_oss_20b/judges_balanced4/deepseek/summary.json",
+      "sha256": "dacf580dfadb87641aaeabb8d3a024d85a549fa66c33d46ffcba1f0dd32fb63a",
+      "bytes": 1535
+    },
+    "v2/models/gpt_oss_20b/responses.jsonl": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/gpt_oss_20b/inference_results.jsonl",
+      "sha256": "300521e1ca2c0f037757c53f8b974e7a97690e8db8521c86485034f931170bf0",
+      "bytes": 5041867
+    },
+    "v2/protocols/balanced4_scoring_snapshot/evaluate_4d.py": {
+      "source": "/NAS/jfxiao/wangdh/harmonic_four_dimension_eval_1000_teacher_balanced_v2/evaluation_all_models_v1/code/evaluate_balanced_four_dimension.py",
+      "sha256": "8491b6ba8288694222a827269bbf79ab3242ec3ebed1f861f84eef52a5bb41f6",
+      "bytes": 18460
+    }
+  }
+}

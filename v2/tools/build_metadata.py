@@ -84,6 +84,12 @@ def export_protocol(version: str) -> dict[str, Any]:
 
 
 def main() -> None:
+    results_audit_path = ROOT.parent / "reports/balanced4_validation.json"
+    results_audit = json.loads(results_audit_path.read_text()) if results_audit_path.exists() else None
+    score_data_published = (ROOT / "models").exists()
+    if score_data_published:
+        assert results_audit and results_audit["status"] == "PASS"
+        assert len(results_audit["datasets"]["teacher"]["models"]) == 5
     benchmark = load("benchmark/benchmark_1000.jsonl")
     annotations = load("annotations/memory_roles.jsonl")
     ei = load("annotations/ei_memory_dependency.jsonl")
@@ -132,7 +138,9 @@ def main() -> None:
     (construction.parent / "generation_prompts.md").write_text(construction_text, encoding="utf-8")
     manifest = {
         "bundle": "EI_OP_Evaluation_v2", "schema_version": 2,
-        "publication_scope": "datasets_and_protocols_only", "score_data_published": False,
+        "publication_scope": "datasets_protocols_and_balanced_four_dimension_results" if score_data_published else "datasets_and_protocols_only",
+        "score_data_published": score_data_published,
+        "balanced_four_dimension_results": results_audit["datasets"]["teacher"] if score_data_published else None,
         "benchmark": {"path": "benchmark/benchmark_1000.jsonl", "num_items": 1000, "unique_query_ids": 1000, "sha256": digest(ROOT / "benchmark/benchmark_1000.jsonl"), "primary_category_counts": dict(categories), "language_counts": dict(languages)},
         "annotations": {"memory_role_cases": 1000, "memory_role_counts": dict(roles), "ei_memory_dependent": 175, "ei_controls": 75, "visible_to_target_model": False, "used_by_regular_10d_judge": False},
         "safety": {"num_items": 100, "slice_counts": dict(slices), "independent_of_main_1000": True},
@@ -148,7 +156,7 @@ def main() -> None:
     save_json(ROOT / "delivery_manifest.json", manifest)
     payloads.append(ROOT / "delivery_manifest.json")
     (ROOT / "SHA256SUMS.txt").write_text("".join(f"{digest(p)}  {p.relative_to(ROOT).as_posix()}\n" for p in sorted(payloads)), encoding="utf-8")
-    print(json.dumps({"status": "PASS", "benchmark_rows": len(benchmark), "annotation_rows": len(annotations), "safety_rows": len(safety), "protocols": list(protocols), "score_data_published": False}, ensure_ascii=False))
+    print(json.dumps({"status": "PASS", "benchmark_rows": len(benchmark), "annotation_rows": len(annotations), "safety_rows": len(safety), "protocols": list(protocols), "score_data_published": score_data_published}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
