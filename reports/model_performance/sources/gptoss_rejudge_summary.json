@@ -1,0 +1,342 @@
+{
+  "old": {
+    "gpt_4o": {
+      "protocol": "blind_huawei10_v1_query_memory_response_only",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "gpt_4o",
+      "input_sha256": "dae44efc54406c11966d40b18c8579487c6f2e3e186c6b42c8030743320a0e14",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.242,
+        "对话意愿": 4.079,
+        "情绪愉悦度": 4.024,
+        "意图判断准确": 4.866,
+        "记忆信息准确": 4.137,
+        "信息内容表达清晰": 4.932,
+        "交流流畅": 4.479,
+        "情感表达恰当": 4.613,
+        "风格恰当": 4.722,
+        "社会智能": 4.591
+      },
+      "macro_average": 4.468500000000001,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    },
+    "gpt_oss_20b": {
+      "protocol": "blind_huawei10_v1_query_memory_response_only",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "gpt_oss_20b",
+      "input_sha256": "8b2cd5d73960201ef4e941d18427e0bdd554fe912cf42524725383e5f97f60db",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.653,
+        "对话意愿": 4.473,
+        "情绪愉悦度": 4.434,
+        "意图判断准确": 4.926,
+        "记忆信息准确": 4.636,
+        "信息内容表达清晰": 4.96,
+        "交流流畅": 4.754,
+        "情感表达恰当": 4.804,
+        "风格恰当": 4.828,
+        "社会智能": 4.835
+      },
+      "macro_average": 4.7303,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": true
+    },
+    "harmonic_step600": {
+      "protocol": "blind_huawei10_v1_query_memory_response_only",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "harmonic_step600",
+      "input_sha256": "1733797b402f2780305f6f4607181f4c95877136e8a09a2d7ea6b3115629371d",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.639,
+        "对话意愿": 4.551,
+        "情绪愉悦度": 4.576,
+        "意图判断准确": 4.943,
+        "记忆信息准确": 4.816,
+        "信息内容表达清晰": 4.847,
+        "交流流畅": 4.75,
+        "情感表达恰当": 4.822,
+        "风格恰当": 4.709,
+        "社会智能": 4.88
+      },
+      "macro_average": 4.7533,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    },
+    "opsd_step1192": {
+      "protocol": "blind_huawei10_v1_query_memory_response_only",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "opsd_step1192",
+      "input_sha256": "484d5db4101d9e531eb91ff6cad1e924c457530eab5286cef0e0afdfbeacc7b4",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.718,
+        "对话意愿": 4.769,
+        "情绪愉悦度": 4.703,
+        "意图判断准确": 4.957,
+        "记忆信息准确": 4.78,
+        "信息内容表达清晰": 4.821,
+        "交流流畅": 4.81,
+        "情感表达恰当": 4.866,
+        "风格恰当": 4.723,
+        "社会智能": 4.892
+      },
+      "macro_average": 4.8039000000000005,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    },
+    "opsd_step900": {
+      "protocol": "blind_huawei10_v1_query_memory_response_only",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "opsd_step900",
+      "input_sha256": "e917058027be184374fd8450541f781c14f479d8b09869618da9b1080c93908a",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.711,
+        "对话意愿": 4.791,
+        "情绪愉悦度": 4.661,
+        "意图判断准确": 4.951,
+        "记忆信息准确": 4.68,
+        "信息内容表达清晰": 4.829,
+        "交流流畅": 4.778,
+        "情感表达恰当": 4.87,
+        "风格恰当": 4.763,
+        "社会智能": 4.885
+      },
+      "macro_average": 4.7919,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    },
+    "qwen35_9b_base": {
+      "protocol": "blind_huawei10_v1_query_memory_response_only",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "qwen35_9b_base",
+      "input_sha256": "67814b1823f43adc69b1bd84053c6ecb8d106a059132e8a77f4e777f1340a5d1",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.328,
+        "对话意愿": 4.25,
+        "情绪愉悦度": 4.194,
+        "意图判断准确": 4.851,
+        "记忆信息准确": 4.456,
+        "信息内容表达清晰": 4.905,
+        "交流流畅": 4.605,
+        "情感表达恰当": 4.726,
+        "风格恰当": 4.771,
+        "社会智能": 4.733
+      },
+      "macro_average": 4.5819,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    }
+  },
+  "new": {
+    "gpt_4o": {
+      "protocol": "project_10d_v2_unified_scene_guidance",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "gpt_4o",
+      "input_sha256": "dae44efc54406c11966d40b18c8579487c6f2e3e186c6b42c8030743320a0e14",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.538,
+        "对话意愿": 4.656,
+        "情绪愉悦度": 4.716,
+        "意图判断准确": 4.812,
+        "记忆信息准确": 4.824,
+        "信息内容表达清晰": 4.89,
+        "交流流畅": 4.947,
+        "情感表达恰当": 4.975,
+        "风格恰当": 4.963,
+        "社会智能": 4.993
+      },
+      "macro_average": 4.8314,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    },
+    "gpt_oss_20b": {
+      "protocol": "project_10d_v2_unified_scene_guidance",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "gpt_oss_20b",
+      "input_sha256": "8b2cd5d73960201ef4e941d18427e0bdd554fe912cf42524725383e5f97f60db",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.762,
+        "对话意愿": 4.8,
+        "情绪愉悦度": 4.853,
+        "意图判断准确": 4.875,
+        "记忆信息准确": 4.914,
+        "信息内容表达清晰": 4.937,
+        "交流流畅": 4.895,
+        "情感表达恰当": 4.97,
+        "风格恰当": 4.953,
+        "社会智能": 4.988
+      },
+      "macro_average": 4.8947,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": true
+    },
+    "harmonic_step600": {
+      "protocol": "project_10d_v2_unified_scene_guidance",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "harmonic_step600",
+      "input_sha256": "1733797b402f2780305f6f4607181f4c95877136e8a09a2d7ea6b3115629371d",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.733,
+        "对话意愿": 4.748,
+        "情绪愉悦度": 4.821,
+        "意图判断准确": 4.904,
+        "记忆信息准确": 4.892,
+        "信息内容表达清晰": 4.917,
+        "交流流畅": 4.853,
+        "情感表达恰当": 4.95,
+        "风格恰当": 4.877,
+        "社会智能": 4.981
+      },
+      "macro_average": 4.8676,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    },
+    "opsd_step1192": {
+      "protocol": "project_10d_v2_unified_scene_guidance",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "opsd_step1192",
+      "input_sha256": "484d5db4101d9e531eb91ff6cad1e924c457530eab5286cef0e0afdfbeacc7b4",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.799,
+        "对话意愿": 4.858,
+        "情绪愉悦度": 4.908,
+        "意图判断准确": 4.925,
+        "记忆信息准确": 4.9,
+        "信息内容表达清晰": 4.895,
+        "交流流畅": 4.872,
+        "情感表达恰当": 4.969,
+        "风格恰当": 4.882,
+        "社会智能": 4.991
+      },
+      "macro_average": 4.899900000000001,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    },
+    "opsd_step900": {
+      "protocol": "project_10d_v2_unified_scene_guidance",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "opsd_step900",
+      "input_sha256": "e917058027be184374fd8450541f781c14f479d8b09869618da9b1080c93908a",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.825,
+        "对话意愿": 4.896,
+        "情绪愉悦度": 4.918,
+        "意图判断准确": 4.934,
+        "记忆信息准确": 4.898,
+        "信息内容表达清晰": 4.911,
+        "交流流畅": 4.9,
+        "情感表达恰当": 4.973,
+        "风格恰当": 4.926,
+        "社会智能": 4.998
+      },
+      "macro_average": 4.9179,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    },
+    "qwen35_9b_base": {
+      "protocol": "project_10d_v2_unified_scene_guidance",
+      "judge_model": "gpt-oss-20b",
+      "target_model": "qwen35_9b_base",
+      "input_sha256": "67814b1823f43adc69b1bd84053c6ecb8d106a059132e8a77f4e777f1340a5d1",
+      "count": 1000,
+      "expected_count": 1000,
+      "dimension_averages": {
+        "整体满意度": 4.612,
+        "对话意愿": 4.734,
+        "情绪愉悦度": 4.792,
+        "意图判断准确": 4.815,
+        "记忆信息准确": 4.871,
+        "信息内容表达清晰": 4.896,
+        "交流流畅": 4.897,
+        "情感表达恰当": 4.965,
+        "风格恰当": 4.939,
+        "社会智能": 4.99
+      },
+      "macro_average": 4.851100000000001,
+      "judge_workers": {
+        "shard0": 250,
+        "shard1": 250,
+        "shard2": 250,
+        "shard3": 250
+      },
+      "self_judged": false
+    }
+  }
+}

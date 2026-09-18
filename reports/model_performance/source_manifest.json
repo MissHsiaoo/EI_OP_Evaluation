@@ -1,0 +1,140 @@
+{
+  "operation": "existing result files only; no model calls",
+  "files": [
+    {
+      "source": "outputs/deepseek_10d_rescore_20260918_batch02/deliverables/aggregate_all_methods.csv",
+      "published": "reports/model_performance/sources/deepseek_rejudge/aggregate_all_methods.csv",
+      "sha256": "dbf0017b45b6f78a2144ff51a741e5a260d8b8ada0f6a9fb891c806647f47b3a"
+    },
+    {
+      "source": "outputs/deepseek_10d_rescore_20260918_batch02/deliverables/deepseek_vs_gptoss_raw.csv",
+      "published": "reports/model_performance/sources/deepseek_rejudge/deepseek_vs_gptoss_raw.csv",
+      "sha256": "bd6164b37f29a7784543cd91cebdf338fb17f20e19c127a8a31afa2959a74808"
+    },
+    {
+      "source": "outputs/deepseek_10d_rescore_20260918_batch02/deliverables/old_10d_detail.csv",
+      "published": "reports/model_performance/sources/deepseek_rejudge/old_10d_detail.csv",
+      "sha256": "65a3fbe849e1a2c5b11c8ca5e4768821a0d456a263371a0bbc4de056ac82f8a6"
+    },
+    {
+      "source": "outputs/deepseek_10d_rescore_20260918_batch02/deliverables/new_10d_detail.csv",
+      "published": "reports/model_performance/sources/deepseek_rejudge/new_10d_detail.csv",
+      "sha256": "8394bda9ad8e7b630a153bd5243623a25c5efb5d70e2102a1780c4344fcec9d7"
+    },
+    {
+      "source": "outputs/deepseek_10d_rescore_20260918_batch02/deliverables/old_dimension_summary.csv",
+      "published": "reports/model_performance/sources/deepseek_rejudge/old_dimension_summary.csv",
+      "sha256": "ea6949d85d67387941f5a205fdb669e3758fdef8222834960c2a31bc28604602"
+    },
+    {
+      "source": "outputs/deepseek_10d_rescore_20260918_batch02/deliverables/new_dimension_summary.csv",
+      "published": "reports/model_performance/sources/deepseek_rejudge/new_dimension_summary.csv",
+      "sha256": "d23cac7cddb637347c347446145d78f50bbaf437dc9ce86bd2a98ae695179754"
+    },
+    {
+      "source": "outputs/deepseek_10d_rescore_20260918_batch02/deliverables/audit.json",
+      "published": "reports/model_performance/sources/deepseek_rejudge/audit.json",
+      "sha256": "a2c459ea034c19794c7e4fdde196de5c368df7762100f57369697a577da61d18"
+    },
+    {
+      "source": "huawei_eval/gptoss_rejudge_10d_20260917/summary.json",
+      "published": "reports/model_performance/sources/gptoss_rejudge_summary.json",
+      "sha256": "f056d6258a270ca824b94d95956cd23dbd5042b8c1f2cb9d3be2b42367c76bf3"
+    },
+    {
+      "source": "outputs/teacher_balanced_v2_all_or_zero_20260915/summary.json",
+      "published": "reports/model_performance/sources/teacher_all_or_zero.json",
+      "sha256": "a3162adddc207cf6a37daef55126775de0a69b44a1c35a1ecdbcff53f9930ff5"
+    },
+    {
+      "source": "huawei_eval/harmonic_four_dimension_eval_1000_teacher_balanced_v2/postprocess_all_or_zero_v1/recompute_all_or_zero.py",
+      "published": "reports/model_performance/sources/teacher_all_or_zero_source.py",
+      "sha256": "7956f1552b9a57673ca59e55bb9d777c103ad72642d581a9618136d3851226ef"
+    },
+    {
+      "source": "outputs/teacher_balanced_v2_safety_reasoning_20260912/evaluation_summary.json",
+      "published": "reports/model_performance/sources/teacher_safety_reasoning.json",
+      "sha256": "f3da83ab448c189179e10c467f7d3d4432ebba9b35f2192caa1fe6a6bfe4c968"
+    },
+    {
+      "source": "outputs/teacher_balanced_v2_all_models_20260912/source_results/gpt_oss_20b/judges_huawei10/deepseek/summary.json",
+      "published": "reports/model_performance/sources/teacher_old10d/gpt_oss_20b.json",
+      "sha256": "ced56ba430d52b11f34f5f53c26dde3efec09042bf9c8179619c51b97a640e83"
+    },
+    {
+      "source": "outputs/01a03751-1f6e-7ac1-8740-cf4f13776fab/blind_summaries/gpt_oss_20b.summary.json",
+      "published": "reports/model_performance/sources/strict4d/gpt_oss_20b.json",
+      "sha256": "71ab6f4d5601d193d16c909035a900830f728efd0cf8e4582c491da7b47ba0af"
+    },
+    {
+      "source": "outputs/teacher_balanced_v2_all_models_20260912/source_results/harmonic0830_step600/judges_huawei10/deepseek/summary.json",
+      "published": "reports/model_performance/sources/teacher_old10d/harmonic_step600.json",
+      "sha256": "a4450e7888df6ad97e027d6e2c865164c538aad06126f48d5dc0ffdd0c081349"
+    },
+    {
+      "source": "outputs/01a03751-1f6e-7ac1-8740-cf4f13776fab/blind_summaries/harmonic0830_step600.summary.json",
+      "published": "reports/model_performance/sources/strict4d/harmonic_step600.json",
+      "sha256": "7df298c02421deab6a38cbe48b1ed7dc5fd0a84b67b9592e60ec2f6ddc70f67d"
+    },
+    {
+      "source": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_grpo_opsd_step1192/judges_huawei10/deepseek/summary.json",
+      "published": "reports/model_performance/sources/teacher_old10d/opsd_step1192.json",
+      "sha256": "6544d0334be86952ac79a97014245914d08de1be41241ed62804879db3796a5b"
+    },
+    {
+      "source": "outputs/01a03751-1f6e-7ac1-8740-cf4f13776fab/blind_summaries/opsd_step1192.summary.json",
+      "published": "reports/model_performance/sources/strict4d/opsd_step1192.json",
+      "sha256": "6501e10aee9f25ce1f662cd78e34a229216f3928ffc2eb700ec27a3ea6f6c3f6"
+    },
+    {
+      "source": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_grpo_opsd_step900/judges_huawei10/deepseek/summary.json",
+      "published": "reports/model_performance/sources/teacher_old10d/opsd_step900.json",
+      "sha256": "293b5e6b51c9b1e9ba394565947914d370fb9f3379274d4790cee2f30ab2b9b0"
+    },
+    {
+      "source": "outputs/01a03751-1f6e-7ac1-8740-cf4f13776fab/blind_summaries/opsd_step900.summary.json",
+      "published": "reports/model_performance/sources/strict4d/opsd_step900.json",
+      "sha256": "70a106273bd7926f9a8c2002ccd9131deb2080aefb6ead500bf895cd365d4aef"
+    },
+    {
+      "source": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_base/judges_huawei10/deepseek/summary.json",
+      "published": "reports/model_performance/sources/teacher_old10d/qwen35_9b_base.json",
+      "sha256": "8b0154deb253e1ba480841d6581a3ab9534d3c4be240b652985188799b37b6ae"
+    },
+    {
+      "source": "outputs/01a03751-1f6e-7ac1-8740-cf4f13776fab/blind_summaries/qwen35_9b.summary.json",
+      "published": "reports/model_performance/sources/strict4d/qwen35_9b_base.json",
+      "sha256": "bdf162b83aa014d62e7726e48b95380beaaefe26e04ceaad1c12f7616e7ddc0f"
+    },
+    {
+      "source": "Song3:/NAS/jfxiao/wangdh/project_10d_v2_20260916/results/gpt_4o/summary.json",
+      "published": "reports/model_performance/sources/deepseek_first_new10d/gpt_4o/summary.json",
+      "sha256": "431c2dca098325b0f98bfd2d385ab4902deb97301f5b098c40a0c066c1034d0e"
+    },
+    {
+      "source": "Song3:/NAS/jfxiao/wangdh/project_10d_v2_20260916/results/gpt_oss_20b/summary.json",
+      "published": "reports/model_performance/sources/deepseek_first_new10d/gpt_oss_20b/summary.json",
+      "sha256": "5f09eff49bcbb070448f5e1374dea35f65a6103a0553e673bebf0f5b963d13f8"
+    },
+    {
+      "source": "Song3:/NAS/jfxiao/wangdh/project_10d_v2_20260916/results/harmonic_step600/summary.json",
+      "published": "reports/model_performance/sources/deepseek_first_new10d/harmonic_step600/summary.json",
+      "sha256": "4c59c912541e97230f356de7acdcc8d567c0034bdbfeb3ff3d96a65fa11e266c"
+    },
+    {
+      "source": "Song3:/NAS/jfxiao/wangdh/project_10d_v2_20260916/results/opsd_step1192/summary.json",
+      "published": "reports/model_performance/sources/deepseek_first_new10d/opsd_step1192/summary.json",
+      "sha256": "f17f01144213c8b71164bebf11d3077a39d693b56c0e69c80e34adb3c4b8abe9"
+    },
+    {
+      "source": "Song3:/NAS/jfxiao/wangdh/project_10d_v2_20260916/results/opsd_step900/summary.json",
+      "published": "reports/model_performance/sources/deepseek_first_new10d/opsd_step900/summary.json",
+      "sha256": "cbde008669db2962b6d03ce392186574ef0cdd69e0196dbbf0a0b1c17e616a23"
+    },
+    {
+      "source": "Song3:/NAS/jfxiao/wangdh/project_10d_v2_20260916/results/qwen35_9b_base/summary.json",
+      "published": "reports/model_performance/sources/deepseek_first_new10d/qwen35_9b_base/summary.json",
+      "sha256": "90e04bb528c6dbe232762ecc70b3fbd233d7c1b9194f3c21b3985d9cee7b3365"
+    }
+  ]
+}

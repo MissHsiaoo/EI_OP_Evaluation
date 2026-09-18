@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "source_files_verified": 27,
+  "tables": [
+    {
+      "slug": "old_10d_judges",
+      "title": "旧版十维：三组Judge评分",
+      "rows": 6
+    },
+    {
+      "slug": "new_10d_judges",
+      "title": "新版十维：三组Judge评分",
+      "rows": 6
+    },
+    {
+      "slug": "10d_rankings",
+      "title": "十维排名",
+      "rows": 36
+    },
+    {
+      "slug": "10d_dimensions",
+      "title": "十维逐维均分",
+      "rows": 36
+    },
+    {
+      "slug": "10d_abc",
+      "title": "DeepSeek复评：三种统计口径",
+      "rows": 12
+    },
+    {
+      "slug": "balanced4_overview",
+      "title": "两套题库：平衡四维",
+      "rows": 11
+    },
+    {
+      "slug": "balanced4_dimensions",
+      "title": "平衡四维：直接维度与EI",
+      "rows": 11
+    },
+    {
+      "slug": "balanced4_categories",
+      "title": "平衡四维：类别切片",
+      "rows": 44
+    },
+    {
+      "slug": "strict_vs_balanced4",
+      "title": "早期题库：严格四维与平衡四维",
+      "rows": 6
+    },
+    {
+      "slug": "teacher_old10d",
+      "title": "修订题库：旧版十维",
+      "rows": 5
+    },
+    {
+      "slug": "teacher_all_or_zero",
+      "title": "修订题库：整题归零",
+      "rows": 5
+    },
+    {
+      "slug": "safety100",
+      "title": "独立Safety-100",
+      "rows": 5
+    },
+    {
+      "slug": "safety100_slices",
+      "title": "Safety-100：切片",
+      "rows": 20
+    },
+    {
+      "slug": "reasoning_modes",
+      "title": "修订题库：Judge thinking on/off",
+      "rows": 5
+    }
+  ],
+  "figures": [
+    "old_10d_three_judges",
+    "new_10d_three_judges",
+    "old_10d_abc",
+    "new_10d_abc",
+    "strict_vs_balanced4",
+    "balanced4_datasets",
+    "op_badcase_rates",
+    "judge_thinking_modes",
+    "safety100_pass_rates"
+  ],
+  "checks": [
+    "old: 6000 model/query rows match benchmark IDs; all A/B/C totals and 180 dimension means recomputed",
+    "new: 6000 model/query rows match benchmark IDs; all A/B/C totals and 180 dimension means recomputed",
+    "Teacher summaries: 5×1000; gate source SHA matches published rows and all four-dimensional gate means recomputed; historical OP4 cap=4.5 and original cap=5 reported separately; safety slice totals and reasoning off/on deltas match"
+  ],
+  "limits": "Historical strict, first/new10d, GPTOSS, teacher10d, safety and reasoning use recorded summaries; first/old10d and teacher four-dimensional gating additionally recomputed from published rows; DeepSeek rescore A/B/C recomputed from 12000 detail rows. No fresh judging or statistical significance claim."
+}

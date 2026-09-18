@@ -1,0 +1,181 @@
+﻿协议,模型,模型目录,口径,维度,1000题分数总和,维度均分_分母1000
+new,GPT-4o,gpt_4o,A_raw,整体满意度,4151,4.151
+new,GPT-4o,gpt_4o,A_raw,对话意愿,4171,4.171
+new,GPT-4o,gpt_4o,A_raw,情绪愉悦度,4189,4.189
+new,GPT-4o,gpt_4o,A_raw,意图判断准确,4480,4.48
+new,GPT-4o,gpt_4o,A_raw,记忆信息准确,4620,4.62
+new,GPT-4o,gpt_4o,A_raw,信息内容表达清晰,4727,4.727
+new,GPT-4o,gpt_4o,A_raw,交流流畅,4320,4.32
+new,GPT-4o,gpt_4o,A_raw,情感表达恰当,4239,4.239
+new,GPT-4o,gpt_4o,A_raw,风格恰当,4356,4.356
+new,GPT-4o,gpt_4o,A_raw,社会智能,4371,4.371
+new,GPT-4o,gpt_4o,B_single_zero,整体满意度,4038,4.038
+new,GPT-4o,gpt_4o,B_single_zero,对话意愿,4089,4.089
+new,GPT-4o,gpt_4o,B_single_zero,情绪愉悦度,4118,4.118
+new,GPT-4o,gpt_4o,B_single_zero,意图判断准确,4368,4.368
+new,GPT-4o,gpt_4o,B_single_zero,记忆信息准确,4485,4.485
+new,GPT-4o,gpt_4o,B_single_zero,信息内容表达清晰,4710,4.71
+new,GPT-4o,gpt_4o,B_single_zero,交流流畅,4296,4.296
+new,GPT-4o,gpt_4o,B_single_zero,情感表达恰当,4180,4.18
+new,GPT-4o,gpt_4o,B_single_zero,风格恰当,4326,4.326
+new,GPT-4o,gpt_4o,B_single_zero,社会智能,4303,4.303
+new,GPT-4o,gpt_4o,C_whole_zero,整体满意度,3878,3.878
+new,GPT-4o,gpt_4o,C_whole_zero,对话意愿,3885,3.885
+new,GPT-4o,gpt_4o,C_whole_zero,情绪愉悦度,3897,3.897
+new,GPT-4o,gpt_4o,C_whole_zero,意图判断准确,4209,4.209
+new,GPT-4o,gpt_4o,C_whole_zero,记忆信息准确,4347,4.347
+new,GPT-4o,gpt_4o,C_whole_zero,信息内容表达清晰,4386,4.386
+new,GPT-4o,gpt_4o,C_whole_zero,交流流畅,4007,4.007
+new,GPT-4o,gpt_4o,C_whole_zero,情感表达恰当,3943,3.943
+new,GPT-4o,gpt_4o,C_whole_zero,风格恰当,4047,4.047
+new,GPT-4o,gpt_4o,C_whole_zero,社会智能,4078,4.078
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,整体满意度,4004,4.004
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,对话意愿,4065,4.065
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,情绪愉悦度,4122,4.122
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,意图判断准确,4264,4.264
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,记忆信息准确,4287,4.287
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,信息内容表达清晰,4607,4.607
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,交流流畅,4174,4.174
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,情感表达恰当,4153,4.153
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,风格恰当,4229,4.229
+new,GPT-OSS-20B,gpt_oss_20b,A_raw,社会智能,4239,4.239
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,整体满意度,3635,3.635
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,对话意愿,3789,3.789
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,情绪愉悦度,3924,3.924
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,意图判断准确,3920,3.92
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,记忆信息准确,3891,3.891
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,信息内容表达清晰,4508,4.508
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,交流流畅,3985,3.985
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,情感表达恰当,3967,3.967
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,风格恰当,4110,4.11
+new,GPT-OSS-20B,gpt_oss_20b,B_single_zero,社会智能,3994,3.994
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,整体满意度,3287,3.287
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,对话意愿,3300,3.3
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,情绪愉悦度,3310,3.31
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,意图判断准确,3527,3.527
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,记忆信息准确,3597,3.597
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,信息内容表达清晰,3692,3.692
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,交流流畅,3366,3.366
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,情感表达恰当,3337,3.337
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,风格恰当,3389,3.389
+new,GPT-OSS-20B,gpt_oss_20b,C_whole_zero,社会智能,3453,3.453
+new,Harmonic Step600,harmonic_step600,A_raw,整体满意度,3967,3.967
+new,Harmonic Step600,harmonic_step600,A_raw,对话意愿,4089,4.089
+new,Harmonic Step600,harmonic_step600,A_raw,情绪愉悦度,4145,4.145
+new,Harmonic Step600,harmonic_step600,A_raw,意图判断准确,4264,4.264
+new,Harmonic Step600,harmonic_step600,A_raw,记忆信息准确,3998,3.998
+new,Harmonic Step600,harmonic_step600,A_raw,信息内容表达清晰,4454,4.454
+new,Harmonic Step600,harmonic_step600,A_raw,交流流畅,4156,4.156
+new,Harmonic Step600,harmonic_step600,A_raw,情感表达恰当,4158,4.158
+new,Harmonic Step600,harmonic_step600,A_raw,风格恰当,4154,4.154
+new,Harmonic Step600,harmonic_step600,A_raw,社会智能,4173,4.173
+new,Harmonic Step600,harmonic_step600,B_single_zero,整体满意度,3508,3.508
+new,Harmonic Step600,harmonic_step600,B_single_zero,对话意愿,3772,3.772
+new,Harmonic Step600,harmonic_step600,B_single_zero,情绪愉悦度,3905,3.905
+new,Harmonic Step600,harmonic_step600,B_single_zero,意图判断准确,3882,3.882
+new,Harmonic Step600,harmonic_step600,B_single_zero,记忆信息准确,3349,3.349
+new,Harmonic Step600,harmonic_step600,B_single_zero,信息内容表达清晰,4367,4.367
+new,Harmonic Step600,harmonic_step600,B_single_zero,交流流畅,3890,3.89
+new,Harmonic Step600,harmonic_step600,B_single_zero,情感表达恰当,3904,3.904
+new,Harmonic Step600,harmonic_step600,B_single_zero,风格恰当,3923,3.923
+new,Harmonic Step600,harmonic_step600,B_single_zero,社会智能,3790,3.79
+new,Harmonic Step600,harmonic_step600,C_whole_zero,整体满意度,2992,2.992
+new,Harmonic Step600,harmonic_step600,C_whole_zero,对话意愿,3049,3.049
+new,Harmonic Step600,harmonic_step600,C_whole_zero,情绪愉悦度,3055,3.055
+new,Harmonic Step600,harmonic_step600,C_whole_zero,意图判断准确,3259,3.259
+new,Harmonic Step600,harmonic_step600,C_whole_zero,记忆信息准确,3242,3.242
+new,Harmonic Step600,harmonic_step600,C_whole_zero,信息内容表达清晰,3215,3.215
+new,Harmonic Step600,harmonic_step600,C_whole_zero,交流流畅,3081,3.081
+new,Harmonic Step600,harmonic_step600,C_whole_zero,情感表达恰当,3082,3.082
+new,Harmonic Step600,harmonic_step600,C_whole_zero,风格恰当,3066,3.066
+new,Harmonic Step600,harmonic_step600,C_whole_zero,社会智能,3171,3.171
+new,OPSD Step1192,opsd_step1192,A_raw,整体满意度,4036,4.036
+new,OPSD Step1192,opsd_step1192,A_raw,对话意愿,4136,4.136
+new,OPSD Step1192,opsd_step1192,A_raw,情绪愉悦度,4161,4.161
+new,OPSD Step1192,opsd_step1192,A_raw,意图判断准确,4364,4.364
+new,OPSD Step1192,opsd_step1192,A_raw,记忆信息准确,4157,4.157
+new,OPSD Step1192,opsd_step1192,A_raw,信息内容表达清晰,4385,4.385
+new,OPSD Step1192,opsd_step1192,A_raw,交流流畅,4170,4.17
+new,OPSD Step1192,opsd_step1192,A_raw,情感表达恰当,4186,4.186
+new,OPSD Step1192,opsd_step1192,A_raw,风格恰当,4148,4.148
+new,OPSD Step1192,opsd_step1192,A_raw,社会智能,4248,4.248
+new,OPSD Step1192,opsd_step1192,B_single_zero,整体满意度,3668,3.668
+new,OPSD Step1192,opsd_step1192,B_single_zero,对话意愿,3859,3.859
+new,OPSD Step1192,opsd_step1192,B_single_zero,情绪愉悦度,3946,3.946
+new,OPSD Step1192,opsd_step1192,B_single_zero,意图判断准确,4053,4.053
+new,OPSD Step1192,opsd_step1192,B_single_zero,记忆信息准确,3600,3.6
+new,OPSD Step1192,opsd_step1192,B_single_zero,信息内容表达清晰,4247,4.247
+new,OPSD Step1192,opsd_step1192,B_single_zero,交流流畅,3924,3.924
+new,OPSD Step1192,opsd_step1192,B_single_zero,情感表达恰当,3974,3.974
+new,OPSD Step1192,opsd_step1192,B_single_zero,风格恰当,3901,3.901
+new,OPSD Step1192,opsd_step1192,B_single_zero,社会智能,3937,3.937
+new,OPSD Step1192,opsd_step1192,C_whole_zero,整体满意度,3160,3.16
+new,OPSD Step1192,opsd_step1192,C_whole_zero,对话意愿,3217,3.217
+new,OPSD Step1192,opsd_step1192,C_whole_zero,情绪愉悦度,3215,3.215
+new,OPSD Step1192,opsd_step1192,C_whole_zero,意图判断准确,3453,3.453
+new,OPSD Step1192,opsd_step1192,C_whole_zero,记忆信息准确,3434,3.434
+new,OPSD Step1192,opsd_step1192,C_whole_zero,信息内容表达清晰,3324,3.324
+new,OPSD Step1192,opsd_step1192,C_whole_zero,交流流畅,3235,3.235
+new,OPSD Step1192,opsd_step1192,C_whole_zero,情感表达恰当,3244,3.244
+new,OPSD Step1192,opsd_step1192,C_whole_zero,风格恰当,3217,3.217
+new,OPSD Step1192,opsd_step1192,C_whole_zero,社会智能,3348,3.348
+new,OPSD Step900,opsd_step900,A_raw,整体满意度,4231,4.231
+new,OPSD Step900,opsd_step900,A_raw,对话意愿,4315,4.315
+new,OPSD Step900,opsd_step900,A_raw,情绪愉悦度,4322,4.322
+new,OPSD Step900,opsd_step900,A_raw,意图判断准确,4562,4.562
+new,OPSD Step900,opsd_step900,A_raw,记忆信息准确,4410,4.41
+new,OPSD Step900,opsd_step900,A_raw,信息内容表达清晰,4504,4.504
+new,OPSD Step900,opsd_step900,A_raw,交流流畅,4340,4.34
+new,OPSD Step900,opsd_step900,A_raw,情感表达恰当,4360,4.36
+new,OPSD Step900,opsd_step900,A_raw,风格恰当,4313,4.313
+new,OPSD Step900,opsd_step900,A_raw,社会智能,4452,4.452
+new,OPSD Step900,opsd_step900,B_single_zero,整体满意度,4055,4.055
+new,OPSD Step900,opsd_step900,B_single_zero,对话意愿,4202,4.202
+new,OPSD Step900,opsd_step900,B_single_zero,情绪愉悦度,4242,4.242
+new,OPSD Step900,opsd_step900,B_single_zero,意图判断准确,4416,4.416
+new,OPSD Step900,opsd_step900,B_single_zero,记忆信息准确,4056,4.056
+new,OPSD Step900,opsd_step900,B_single_zero,信息内容表达清晰,4436,4.436
+new,OPSD Step900,opsd_step900,B_single_zero,交流流畅,4245,4.245
+new,OPSD Step900,opsd_step900,B_single_zero,情感表达恰当,4268,4.268
+new,OPSD Step900,opsd_step900,B_single_zero,风格恰当,4218,4.218
+new,OPSD Step900,opsd_step900,B_single_zero,社会智能,4323,4.323
+new,OPSD Step900,opsd_step900,C_whole_zero,整体满意度,3683,3.683
+new,OPSD Step900,opsd_step900,C_whole_zero,对话意愿,3742,3.742
+new,OPSD Step900,opsd_step900,C_whole_zero,情绪愉悦度,3736,3.736
+new,OPSD Step900,opsd_step900,C_whole_zero,意图判断准确,3998,3.998
+new,OPSD Step900,opsd_step900,C_whole_zero,记忆信息准确,3946,3.946
+new,OPSD Step900,opsd_step900,C_whole_zero,信息内容表达清晰,3855,3.855
+new,OPSD Step900,opsd_step900,C_whole_zero,交流流畅,3759,3.759
+new,OPSD Step900,opsd_step900,C_whole_zero,情感表达恰当,3778,3.778
+new,OPSD Step900,opsd_step900,C_whole_zero,风格恰当,3731,3.731
+new,OPSD Step900,opsd_step900,C_whole_zero,社会智能,3885,3.885
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,整体满意度,4131,4.131
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,对话意愿,4176,4.176
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,情绪愉悦度,4222,4.222
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,意图判断准确,4452,4.452
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,记忆信息准确,4454,4.454
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,信息内容表达清晰,4664,4.664
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,交流流畅,4321,4.321
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,情感表达恰当,4276,4.276
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,风格恰当,4350,4.35
+new,Qwen3.5-9B 原版,qwen35_9b_base,A_raw,社会智能,4389,4.389
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,整体满意度,3930,3.93
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,对话意愿,4035,4.035
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,情绪愉悦度,4144,4.144
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,意图判断准确,4271,4.271
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,记忆信息准确,4205,4.205
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,信息内容表达清晰,4621,4.621
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,交流流畅,4215,4.215
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,情感表达恰当,4189,4.189
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,风格恰当,4291,4.291
+new,Qwen3.5-9B 原版,qwen35_9b_base,B_single_zero,社会智能,4258,4.258
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,整体满意度,3698,3.698
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,对话意愿,3719,3.719
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,情绪愉悦度,3736,3.736
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,意图判断准确,4005,4.005
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,记忆信息准确,4064,4.064
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,信息内容表达清晰,4124,4.124
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,交流流畅,3845,3.845
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,情感表达恰当,3788,3.788
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,风格恰当,3858,3.858
+new,Qwen3.5-9B 原版,qwen35_9b_base,C_whole_zero,社会智能,3919,3.919

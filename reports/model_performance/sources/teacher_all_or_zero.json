@@ -1,0 +1,387 @@
+{
+  "rule": "Within each protocol, if any direct dimension score for an item is below 4, set every direct dimension for that item to 0 before aggregation.",
+  "threshold": 4,
+  "dataset": "teacher-balanced-v2 main 1000",
+  "models": [
+    {
+      "model_key": "harmonic0830_step600",
+      "model": "Harmonic0830 Step600",
+      "ten_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/harmonic0830_step600/judges_huawei10/deepseek/results.jsonl",
+        "source_sha256": "e8f503e3d69aadd5e06e68e2492fecbd4d719a043fc226157863825367994f72",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/harmonic0830_step600/huawei10_all_or_zero.jsonl",
+        "derived_sha256": "e95810b9c837490450a65fe6b94ecff1aa0d85cad4c75e4298814acad7185f2e",
+        "items": 1000,
+        "strict_pass_count": 791,
+        "strict_pass_rate": 0.791,
+        "dimension_averages": {
+          "整体满意度": 3.55,
+          "对话意愿": 3.548,
+          "情绪愉悦度": 3.493,
+          "意图判断准确": 3.907,
+          "记忆信息准确": 3.772,
+          "信息内容表达清晰": 3.594,
+          "交流流畅": 3.682,
+          "情感表达恰当": 3.542,
+          "风格恰当": 3.568,
+          "社会智能": 3.655
+        },
+        "macro_average": 3.6311
+      },
+      "four_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/harmonic0830_step600/judges_balanced4/deepseek/results.jsonl",
+        "source_sha256": "70089819f97e11be06d36843c4d65a8ffebdeb62c520bf820ee79a4ff22ef970",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/harmonic0830_step600/balanced4_all_or_zero.jsonl",
+        "derived_sha256": "f72ef775895b89acdddad4e3a819b55e14e8fa41dce81d0367fb134cbbf7502d",
+        "items": 1000,
+        "strict_pass_count": 877,
+        "strict_pass_rate": 0.877,
+        "direct_dimension_averages": {
+          "task_quality": 4.251,
+          "memory_usage": 4.216,
+          "over_personalization_restraint": 4.147,
+          "resonation": 3.854,
+          "expression": 4.246,
+          "reception": 4.251
+        },
+        "aggregate_of_dimension_means": {
+          "emotional_intelligence_harmonic": 4.108321501680093,
+          "four_dim_macro": 4.180580375420023,
+          "four_dim_harmonic": 4.179828776451094
+        },
+        "mean_per_item": {
+          "emotional_intelligence_harmonic": 4.096307692307726,
+          "four_dim_macro": 4.177576923076929,
+          "four_dim_harmonic": 4.168502601830893,
+          "final_op_penalized_score": 4.158686969627357
+        },
+        "groups": {
+          "emotional_intelligence": {
+            "count": 250,
+            "strict_pass_rate": 0.92,
+            "mean_final_op_penalized_score": 4.448998175580943
+          },
+          "memory": {
+            "count": 350,
+            "strict_pass_rate": 0.8971428571428571,
+            "mean_final_op_penalized_score": 4.237467873098383
+          },
+          "over_personalization": {
+            "count": 250,
+            "strict_pass_rate": 0.792,
+            "mean_final_op_penalized_score": 3.728368023288329
+          },
+          "task_quality": {
+            "count": 150,
+            "strict_pass_rate": 0.9,
+            "mean_final_op_penalized_score": 4.208211095504334
+          }
+        }
+      }
+    },
+    {
+      "model_key": "qwen35_9b_grpo_opsd_step1192",
+      "model": "OPSD Step1192",
+      "ten_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_grpo_opsd_step1192/judges_huawei10/deepseek/results.jsonl",
+        "source_sha256": "880b2440b06a161c7be8eb24b446015a47d2f26e81f9f9205b93efa847f5effa",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/qwen35_9b_grpo_opsd_step1192/huawei10_all_or_zero.jsonl",
+        "derived_sha256": "9560cce6843069d95da0e8f427f5ad8b601fdde256546d51f037ffccba886ece",
+        "items": 1000,
+        "strict_pass_count": 692,
+        "strict_pass_rate": 0.692,
+        "dimension_averages": {
+          "整体满意度": 3.111,
+          "对话意愿": 3.109,
+          "情绪愉悦度": 3.071,
+          "意图判断准确": 3.445,
+          "记忆信息准确": 3.302,
+          "信息内容表达清晰": 3.173,
+          "交流流畅": 3.193,
+          "情感表达恰当": 3.113,
+          "风格恰当": 3.158,
+          "社会智能": 3.21
+        },
+        "macro_average": 3.1885000000000003
+      },
+      "four_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_grpo_opsd_step1192/judges_balanced4/deepseek/results.jsonl",
+        "source_sha256": "4b39e011a54defd1ca77589d5b623ea7a739bb20cc7269aae221ad33d9e47917",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/qwen35_9b_grpo_opsd_step1192/balanced4_all_or_zero.jsonl",
+        "derived_sha256": "228ca6e02cfa1c08d2522e9c5844417707d10037d52e7c9b2391c2b831b08bbf",
+        "items": 1000,
+        "strict_pass_count": 923,
+        "strict_pass_rate": 0.923,
+        "direct_dimension_averages": {
+          "task_quality": 4.461,
+          "memory_usage": 4.43,
+          "over_personalization_restraint": 4.41,
+          "resonation": 3.895,
+          "expression": 4.459,
+          "reception": 4.466
+        },
+        "aggregate_of_dimension_means": {
+          "emotional_intelligence_harmonic": 4.25580837430244,
+          "four_dim_macro": 4.38920209357561,
+          "four_dim_harmonic": 4.387749961592484
+        },
+        "mean_per_item": {
+          "emotional_intelligence_harmonic": 4.243758241758282,
+          "four_dim_macro": 4.386189560439556,
+          "four_dim_harmonic": 4.375654882506155,
+          "final_op_penalized_score": 4.370175244497103
+        },
+        "groups": {
+          "emotional_intelligence": {
+            "count": 250,
+            "strict_pass_rate": 0.972,
+            "mean_final_op_penalized_score": 4.626257692833205
+          },
+          "memory": {
+            "count": 350,
+            "strict_pass_rate": 0.92,
+            "mean_final_op_penalized_score": 4.35288395457032
+          },
+          "over_personalization": {
+            "count": 250,
+            "strict_pass_rate": 0.892,
+            "mean_final_op_penalized_score": 4.228657354341573
+          },
+          "task_quality": {
+            "count": 150,
+            "strict_pass_rate": 0.9,
+            "mean_final_op_penalized_score": 4.219580657359072
+          }
+        }
+      }
+    },
+    {
+      "model_key": "qwen35_9b_grpo_opsd_step900",
+      "model": "OPSD Step900",
+      "ten_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_grpo_opsd_step900/judges_huawei10/deepseek/results.jsonl",
+        "source_sha256": "69f54d1ad77cb9355df1aaee3bf74a22d466f9080fa466c319d50a154b185ea0",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/qwen35_9b_grpo_opsd_step900/huawei10_all_or_zero.jsonl",
+        "derived_sha256": "67f0c3ee91ee246c860c3b12ec7df5bd843ddcea2fe4191735f5743a24993bce",
+        "items": 1000,
+        "strict_pass_count": 758,
+        "strict_pass_rate": 0.758,
+        "dimension_averages": {
+          "整体满意度": 3.419,
+          "对话意愿": 3.417,
+          "情绪愉悦度": 3.342,
+          "意图判断准确": 3.756,
+          "记忆信息准确": 3.57,
+          "信息内容表达清晰": 3.466,
+          "交流流畅": 3.47,
+          "情感表达恰当": 3.397,
+          "风格恰当": 3.439,
+          "社会智能": 3.503
+        },
+        "macro_average": 3.4778999999999995
+      },
+      "four_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_grpo_opsd_step900/judges_balanced4/deepseek/results.jsonl",
+        "source_sha256": "860058835c2b70c3b9bee78187b5b93e813c7dd731101530d8a8b8015f7a60c5",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/qwen35_9b_grpo_opsd_step900/balanced4_all_or_zero.jsonl",
+        "derived_sha256": "467b2e933a32afc4cd268fca1248caa0d4849fd0b97be4937db03470f91e354d",
+        "items": 1000,
+        "strict_pass_count": 968,
+        "strict_pass_rate": 0.968,
+        "direct_dimension_averages": {
+          "task_quality": 4.731,
+          "memory_usage": 4.688,
+          "over_personalization_restraint": 4.699,
+          "resonation": 4.165,
+          "expression": 4.73,
+          "reception": 4.729
+        },
+        "aggregate_of_dimension_means": {
+          "emotional_intelligence_harmonic": 4.525066203048479,
+          "four_dim_macro": 4.66076655076212,
+          "four_dim_harmonic": 4.659371619803385
+        },
+        "mean_per_item": {
+          "emotional_intelligence_harmonic": 4.512120879120922,
+          "four_dim_macro": 4.657530219780197,
+          "four_dim_harmonic": 4.647439702287029,
+          "final_op_penalized_score": 4.64465121940476
+        },
+        "groups": {
+          "emotional_intelligence": {
+            "count": 250,
+            "strict_pass_rate": 0.976,
+            "mean_final_op_penalized_score": 4.706758204361578
+          },
+          "memory": {
+            "count": 350,
+            "strict_pass_rate": 0.9714285714285714,
+            "mean_final_op_penalized_score": 4.631503720616064
+          },
+          "over_personalization": {
+            "count": 250,
+            "strict_pass_rate": 0.952,
+            "mean_final_op_penalized_score": 4.587593656135017
+          },
+          "task_quality": {
+            "count": 150,
+            "strict_pass_rate": 0.9733333333333334,
+            "mean_final_op_penalized_score": 4.66691301376706
+          }
+        }
+      }
+    },
+    {
+      "model_key": "qwen35_9b_base",
+      "model": "Qwen3.5-9B 原版",
+      "ten_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_base/judges_huawei10/deepseek/results.jsonl",
+        "source_sha256": "35fbd2920e5fa34780f7b5b0ebe148ded01270c08d73365c2f544d6bbbd09e61",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/qwen35_9b_base/huawei10_all_or_zero.jsonl",
+        "derived_sha256": "0669b6b780cb3caa13b1c3246a8b9ca7131542509b7b13e3837b263c0e2a3de6",
+        "items": 1000,
+        "strict_pass_count": 643,
+        "strict_pass_rate": 0.643,
+        "dimension_averages": {
+          "整体满意度": 2.728,
+          "对话意愿": 2.694,
+          "情绪愉悦度": 2.678,
+          "意图判断准确": 3.164,
+          "记忆信息准确": 2.974,
+          "信息内容表达清晰": 2.894,
+          "交流流畅": 2.723,
+          "情感表达恰当": 2.706,
+          "风格恰当": 2.832,
+          "社会智能": 2.8
+        },
+        "macro_average": 2.8193
+      },
+      "four_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/qwen35_9b_base/judges_balanced4/deepseek/results.jsonl",
+        "source_sha256": "76f3301c456020b06947b1d02c1d5d560648ff7a2228c513b376cc95780064ab",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/qwen35_9b_base/balanced4_all_or_zero.jsonl",
+        "derived_sha256": "0f9b54ebf7e6e7b2eee79cd8c58f24f7924df0c6f6a33eb3affacd4e76f29cf6",
+        "items": 1000,
+        "strict_pass_count": 953,
+        "strict_pass_rate": 0.953,
+        "direct_dimension_averages": {
+          "task_quality": 4.451,
+          "memory_usage": 4.548,
+          "over_personalization_restraint": 4.634,
+          "resonation": 3.963,
+          "expression": 4.474,
+          "reception": 4.473
+        },
+        "aggregate_of_dimension_means": {
+          "emotional_intelligence_harmonic": 4.289321430323368,
+          "four_dim_macro": 4.480580357580842,
+          "four_dim_harmonic": 4.476882539753492
+        },
+        "mean_per_item": {
+          "emotional_intelligence_harmonic": 4.276791208791247,
+          "four_dim_macro": 4.4774478021977915,
+          "four_dim_harmonic": 4.462333053272116,
+          "final_op_penalized_score": 4.46111359625854
+        },
+        "groups": {
+          "emotional_intelligence": {
+            "count": 250,
+            "strict_pass_rate": 0.968,
+            "mean_final_op_penalized_score": 4.516668297771631
+          },
+          "memory": {
+            "count": 350,
+            "strict_pass_rate": 0.9514285714285714,
+            "mean_final_op_penalized_score": 4.4217132327035715
+          },
+          "over_personalization": {
+            "count": 250,
+            "strict_pass_rate": 0.948,
+            "mean_final_op_penalized_score": 4.464144707422913
+          },
+          "task_quality": {
+            "count": 150,
+            "strict_pass_rate": 0.94,
+            "mean_final_op_penalized_score": 4.455404756758147
+          }
+        }
+      }
+    },
+    {
+      "model_key": "gpt_oss_20b",
+      "model": "GPT-OSS-20B",
+      "ten_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/gpt_oss_20b/judges_huawei10/deepseek/results.jsonl",
+        "source_sha256": "ab6d45d97dc3d135dfa988929496432d6d99fb821777a5c16e2b157d8a87a6e2",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/gpt_oss_20b/huawei10_all_or_zero.jsonl",
+        "derived_sha256": "d72a48661879b3a2c6d295fa230f1b80afa8659a7b262ad89cfa12da0cebb952",
+        "items": 1000,
+        "strict_pass_count": 517,
+        "strict_pass_rate": 0.517,
+        "dimension_averages": {
+          "整体满意度": 2.153,
+          "对话意愿": 2.132,
+          "情绪愉悦度": 2.129,
+          "意图判断准确": 2.529,
+          "记忆信息准确": 2.383,
+          "信息内容表达清晰": 2.289,
+          "交流流畅": 2.141,
+          "情感表达恰当": 2.131,
+          "风格恰当": 2.23,
+          "社会智能": 2.214
+        },
+        "macro_average": 2.2331
+      },
+      "four_dim": {
+        "source_path": "outputs/teacher_balanced_v2_all_models_20260912/source_results/gpt_oss_20b/judges_balanced4/deepseek/results.jsonl",
+        "source_sha256": "c80df6c52dcbc1245bd1b3ff53e419ed7f4d3d13b93e557767098c1cd6fe212a",
+        "derived_path": "outputs/teacher_balanced_v2_all_or_zero_20260915/per_item/gpt_oss_20b/balanced4_all_or_zero.jsonl",
+        "derived_sha256": "9a84c69e9c762d8fd92b60743df2468317d09f7fb7ee7c4b0fb259ba91d5cce5",
+        "items": 1000,
+        "strict_pass_count": 917,
+        "strict_pass_rate": 0.917,
+        "direct_dimension_averages": {
+          "task_quality": 4.297,
+          "memory_usage": 4.384,
+          "over_personalization_restraint": 4.441,
+          "resonation": 3.795,
+          "expression": 4.309,
+          "reception": 4.313
+        },
+        "aggregate_of_dimension_means": {
+          "emotional_intelligence_harmonic": 4.124084384748706,
+          "four_dim_macro": 4.311521096187176,
+          "four_dim_harmonic": 4.308138450984137
+        },
+        "mean_per_item": {
+          "emotional_intelligence_harmonic": 4.112296703296736,
+          "four_dim_macro": 4.3085741758241785,
+          "four_dim_harmonic": 4.295635795062562,
+          "final_op_penalized_score": 4.2935679217593945
+        },
+        "groups": {
+          "emotional_intelligence": {
+            "count": 250,
+            "strict_pass_rate": 0.936,
+            "mean_final_op_penalized_score": 4.258352283681446
+          },
+          "memory": {
+            "count": 350,
+            "strict_pass_rate": 0.92,
+            "mean_final_op_penalized_score": 4.33191175773946
+          },
+          "over_personalization": {
+            "count": 250,
+            "strict_pass_rate": 0.92,
+            "mean_final_op_penalized_score": 4.361454585514745
+          },
+          "task_quality": {
+            "count": 150,
+            "strict_pass_rate": 0.8733333333333333,
+            "mean_final_op_penalized_score": 4.149647261677343
+          }
+        }
+      }
+    }
+  ]
+}

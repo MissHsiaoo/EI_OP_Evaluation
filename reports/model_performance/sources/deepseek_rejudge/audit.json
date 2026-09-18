@@ -1,0 +1,84 @@
+{
+  "completed_at": "2026-09-18T01:28:04.015948+00:00",
+  "batch": "deepseek_10d_rescore_20260918_batch02",
+  "judge_model": "deepseek-v4-flash-0731",
+  "expected_total": 12000,
+  "actual_total": 12000,
+  "counts": {
+    "old/gpt_4o": 1000,
+    "old/gpt_oss_20b": 1000,
+    "old/harmonic_step600": 1000,
+    "old/opsd_step1192": 1000,
+    "old/opsd_step900": 1000,
+    "old/qwen35_9b_base": 1000,
+    "new/gpt_4o": 1000,
+    "new/gpt_oss_20b": 1000,
+    "new/harmonic_step600": 1000,
+    "new/opsd_step1192": 1000,
+    "new/opsd_step900": 1000,
+    "new/qwen35_9b_base": 1000
+  },
+  "input_sha256": {
+    "gpt_4o": "dae44efc54406c11966d40b18c8579487c6f2e3e186c6b42c8030743320a0e14",
+    "gpt_oss_20b": "8b2cd5d73960201ef4e941d18427e0bdd554fe912cf42524725383e5f97f60db",
+    "harmonic_step600": "1733797b402f2780305f6f4607181f4c95877136e8a09a2d7ea6b3115629371d",
+    "opsd_step1192": "484d5db4101d9e531eb91ff6cad1e924c457530eab5286cef0e0afdfbeacc7b4",
+    "opsd_step900": "e917058027be184374fd8450541f781c14f479d8b09869618da9b1080c93908a",
+    "qwen35_9b_base": "67814b1823f43adc69b1bd84053c6ecb8d106a059132e8a77f4e777f1340a5d1"
+  },
+  "protocol_source_sha256": {
+    "old/criteria_defs.py": "0d369880610c80d8d28206286c8db7224005488d65417a532e072e464786d4ad",
+    "old/evaluate_huawei10_blind.py": "d58fde6d8bf8ba6635701646bd119bfd0e253499e72a3614792f7749bb087a00",
+    "new/criteria_defs.py": "c421d259d079d1f70f87895642c146d90b1922eb160c9c05f3e4e8eac320e1d6",
+    "new/evaluate_10d.py": "985e69d04b82f672369a4b3f1e4974e326406ce2747da0fa3a7f4c9d97ba966b",
+    "new/evaluate_10d_base.py": "d58fde6d8bf8ba6635701646bd119bfd0e253499e72a3614792f7749bb087a00"
+  },
+  "request_config_sha256": "5ddffd576ba9d720ddefb006e5bc5e0eef21b2eddb13ad5c4543b81ca36fd0c4",
+  "attempt_error_records": 2,
+  "attempt_error_types": {
+    "ValidationError": 2
+  },
+  "failed_attempts_linked_to_success": 2,
+  "unresolved_errors": 0,
+  "responses_with_nonempty_reasoning_content": 0,
+  "zero_counts": {
+    "old/gpt_4o": 485,
+    "old/gpt_oss_20b": 365,
+    "old/harmonic_step600": 105,
+    "old/opsd_step1192": 179,
+    "old/opsd_step900": 150,
+    "old/qwen35_9b_base": 301,
+    "new/gpt_4o": 79,
+    "new/gpt_oss_20b": 219,
+    "new/harmonic_step600": 294,
+    "new/opsd_step1192": 258,
+    "new/opsd_step900": 153,
+    "new/qwen35_9b_base": 129
+  },
+  "score_jsonl_sha256": {
+    "old/gpt_4o": "30b3f1af2dc9396b5bd77f4bc11588639e7a50ed763952abcc5985c6b6313aa8",
+    "old/gpt_oss_20b": "6dceb16e9168a4ca486b687af567b630c68f2e7d130cc1a654c620ef42328a03",
+    "old/harmonic_step600": "b97bf66e069c30c14b2715582e3f3f2ced0c92c06671642174f6412b3bfa0ab5",
+    "old/opsd_step1192": "0382ade0cbdf03ce6e63aca444bce25c4a64cff16826cd1d8430ccb8183e33cd",
+    "old/opsd_step900": "aec5977da2f46b5645afd7e8501d5855714f2c06833cd6232c6add1ae0d4443c",
+    "old/qwen35_9b_base": "8e625f8288cc9d64fb7f0746d5780c0b29f77aa394335952c1d529a92a07da0f",
+    "new/gpt_4o": "7219e37e3a78ac1e0c7ffc482e866a147de7c6e83146234d7349e6d243b9758d",
+    "new/gpt_oss_20b": "46f9c474d01c02f55cc875720f246b2c7d3c1abb230c839ded4a70424c391c4f",
+    "new/harmonic_step600": "f16a1b0eb86b2901599fe49f78059fa9f5b4c1181040fe54ca48d9639d5b66e1",
+    "new/opsd_step1192": "d150c877d5364266ddb3969fb76dd4c743dc1468ea6a7c30aa5a51ec1ddf8776",
+    "new/opsd_step900": "c7b9e8d4028cdbe5fda4cec3b3f30c1483c2262cd222f3f14beedddc62de9546",
+    "new/qwen35_9b_base": "223f500906367f263b4293456ac359762af20cc5edfd0e078ff90efe366631d3"
+  },
+  "checks": [
+    "12 groups 1000/1000",
+    "query_id uniqueness and complete source ID matching",
+    "complete original source row equality",
+    "exact query, memory, response equality",
+    "full original schema validation",
+    "non-blank reasons",
+    "same judge ID, protocol, source SHA and request config",
+    "no truncated API response",
+    "all logged attempt errors resolved",
+    "1000 and 10000 aggregation denominators"
+  ]
+}

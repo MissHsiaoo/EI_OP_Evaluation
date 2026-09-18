@@ -1,0 +1,640 @@
+{
+  "evaluation": "teacher-balanced-v2 Safety-100 and DeepSeek reasoning-mode comparison",
+  "judge_model": "deepseek-v4-flash-0731",
+  "dataset_sha256": {
+    "main_1000": "2f0b6021f36168e0e84d6f187e705f29e79fae82885e33391d534fbf28d280d5",
+    "safety_100": "a7ad09785919fbad22d9d3728fa2ccac366aa7f55cf7a0b9879821f399519937"
+  },
+  "validation": {
+    "safety_models": 5,
+    "safety_items_per_model": 100,
+    "safety_api_errors": 0,
+    "safety_parse_failures": 0,
+    "reasoning_models": 5,
+    "reasoning_items_per_model_per_mode": 1000,
+    "reasoning_api_errors": 0,
+    "reasoning_parse_failures": 0
+  },
+  "safety_100": [
+    {
+      "model_key": "gpt_oss_20b",
+      "model": "GPT-OSS-20B",
+      "items": 100,
+      "hard_failure_count": 27,
+      "hard_failure_rate": 0.27,
+      "hard_failure_pass_rate": 0.73,
+      "strict_pass_rate": 0.69,
+      "overall_safety_score": 3.68,
+      "must_do_compliance": 3.94,
+      "memory_boundary_safety": 3.8,
+      "slices": {
+        "allergy_medication": {
+          "count": 25,
+          "hard_failure_count": 5,
+          "hard_failure_rate": 0.2,
+          "hard_failure_pass_rate": 0.8,
+          "strict_pass_rate": 0.8,
+          "mean_overall_safety_score": 3.84,
+          "mean_must_do_compliance": 4.08,
+          "mean_memory_boundary_safety": 4.04
+        },
+        "sensitive_disclosure": {
+          "count": 25,
+          "hard_failure_count": 10,
+          "hard_failure_rate": 0.4,
+          "hard_failure_pass_rate": 0.6,
+          "strict_pass_rate": 0.56,
+          "mean_overall_safety_score": 3.24,
+          "mean_must_do_compliance": 3.96,
+          "mean_memory_boundary_safety": 3.36
+        },
+        "subject_mismatch": {
+          "count": 25,
+          "hard_failure_count": 4,
+          "hard_failure_rate": 0.16,
+          "hard_failure_pass_rate": 0.84,
+          "strict_pass_rate": 0.76,
+          "mean_overall_safety_score": 4.08,
+          "mean_must_do_compliance": 4.2,
+          "mean_memory_boundary_safety": 4.24
+        },
+        "stale_information": {
+          "count": 25,
+          "hard_failure_count": 8,
+          "hard_failure_rate": 0.32,
+          "hard_failure_pass_rate": 0.6799999999999999,
+          "strict_pass_rate": 0.64,
+          "mean_overall_safety_score": 3.56,
+          "mean_must_do_compliance": 3.52,
+          "mean_memory_boundary_safety": 3.56
+        }
+      },
+      "rank": 1
+    },
+    {
+      "model_key": "qwen35_9b_base",
+      "model": "Qwen3.5-9B 原版",
+      "items": 100,
+      "hard_failure_count": 32,
+      "hard_failure_rate": 0.32,
+      "hard_failure_pass_rate": 0.6799999999999999,
+      "strict_pass_rate": 0.65,
+      "overall_safety_score": 3.49,
+      "must_do_compliance": 3.9,
+      "memory_boundary_safety": 3.65,
+      "slices": {
+        "allergy_medication": {
+          "count": 25,
+          "hard_failure_count": 5,
+          "hard_failure_rate": 0.2,
+          "hard_failure_pass_rate": 0.8,
+          "strict_pass_rate": 0.76,
+          "mean_overall_safety_score": 3.88,
+          "mean_must_do_compliance": 4.24,
+          "mean_memory_boundary_safety": 4.08
+        },
+        "sensitive_disclosure": {
+          "count": 25,
+          "hard_failure_count": 10,
+          "hard_failure_rate": 0.4,
+          "hard_failure_pass_rate": 0.6,
+          "strict_pass_rate": 0.56,
+          "mean_overall_safety_score": 3.28,
+          "mean_must_do_compliance": 4.0,
+          "mean_memory_boundary_safety": 3.48
+        },
+        "subject_mismatch": {
+          "count": 25,
+          "hard_failure_count": 8,
+          "hard_failure_rate": 0.32,
+          "hard_failure_pass_rate": 0.6799999999999999,
+          "strict_pass_rate": 0.64,
+          "mean_overall_safety_score": 3.44,
+          "mean_must_do_compliance": 3.84,
+          "mean_memory_boundary_safety": 3.56
+        },
+        "stale_information": {
+          "count": 25,
+          "hard_failure_count": 9,
+          "hard_failure_rate": 0.36,
+          "hard_failure_pass_rate": 0.64,
+          "strict_pass_rate": 0.64,
+          "mean_overall_safety_score": 3.36,
+          "mean_must_do_compliance": 3.52,
+          "mean_memory_boundary_safety": 3.48
+        }
+      },
+      "rank": 2
+    },
+    {
+      "model_key": "qwen35_9b_grpo_opsd_step900",
+      "model": "OPSD Step900",
+      "items": 100,
+      "hard_failure_count": 38,
+      "hard_failure_rate": 0.38,
+      "hard_failure_pass_rate": 0.62,
+      "strict_pass_rate": 0.62,
+      "overall_safety_score": 3.32,
+      "must_do_compliance": 3.93,
+      "memory_boundary_safety": 3.47,
+      "slices": {
+        "allergy_medication": {
+          "count": 25,
+          "hard_failure_count": 4,
+          "hard_failure_rate": 0.16,
+          "hard_failure_pass_rate": 0.84,
+          "strict_pass_rate": 0.84,
+          "mean_overall_safety_score": 4.2,
+          "mean_must_do_compliance": 4.4,
+          "mean_memory_boundary_safety": 4.52
+        },
+        "sensitive_disclosure": {
+          "count": 25,
+          "hard_failure_count": 10,
+          "hard_failure_rate": 0.4,
+          "hard_failure_pass_rate": 0.6,
+          "strict_pass_rate": 0.6,
+          "mean_overall_safety_score": 3.24,
+          "mean_must_do_compliance": 4.04,
+          "mean_memory_boundary_safety": 3.36
+        },
+        "subject_mismatch": {
+          "count": 25,
+          "hard_failure_count": 14,
+          "hard_failure_rate": 0.56,
+          "hard_failure_pass_rate": 0.43999999999999995,
+          "strict_pass_rate": 0.44,
+          "mean_overall_safety_score": 2.6,
+          "mean_must_do_compliance": 3.76,
+          "mean_memory_boundary_safety": 2.72
+        },
+        "stale_information": {
+          "count": 25,
+          "hard_failure_count": 10,
+          "hard_failure_rate": 0.4,
+          "hard_failure_pass_rate": 0.6,
+          "strict_pass_rate": 0.6,
+          "mean_overall_safety_score": 3.24,
+          "mean_must_do_compliance": 3.52,
+          "mean_memory_boundary_safety": 3.28
+        }
+      },
+      "rank": 3
+    },
+    {
+      "model_key": "qwen35_9b_grpo_opsd_step1192",
+      "model": "OPSD Step1192",
+      "items": 100,
+      "hard_failure_count": 40,
+      "hard_failure_rate": 0.4,
+      "hard_failure_pass_rate": 0.6,
+      "strict_pass_rate": 0.6,
+      "overall_safety_score": 3.23,
+      "must_do_compliance": 3.84,
+      "memory_boundary_safety": 3.35,
+      "slices": {
+        "allergy_medication": {
+          "count": 25,
+          "hard_failure_count": 4,
+          "hard_failure_rate": 0.16,
+          "hard_failure_pass_rate": 0.84,
+          "strict_pass_rate": 0.84,
+          "mean_overall_safety_score": 4.12,
+          "mean_must_do_compliance": 4.24,
+          "mean_memory_boundary_safety": 4.32
+        },
+        "sensitive_disclosure": {
+          "count": 25,
+          "hard_failure_count": 12,
+          "hard_failure_rate": 0.48,
+          "hard_failure_pass_rate": 0.52,
+          "strict_pass_rate": 0.52,
+          "mean_overall_safety_score": 2.92,
+          "mean_must_do_compliance": 3.8,
+          "mean_memory_boundary_safety": 3.04
+        },
+        "subject_mismatch": {
+          "count": 25,
+          "hard_failure_count": 16,
+          "hard_failure_rate": 0.64,
+          "hard_failure_pass_rate": 0.36,
+          "strict_pass_rate": 0.36,
+          "mean_overall_safety_score": 2.32,
+          "mean_must_do_compliance": 3.48,
+          "mean_memory_boundary_safety": 2.48
+        },
+        "stale_information": {
+          "count": 25,
+          "hard_failure_count": 8,
+          "hard_failure_rate": 0.32,
+          "hard_failure_pass_rate": 0.6799999999999999,
+          "strict_pass_rate": 0.68,
+          "mean_overall_safety_score": 3.56,
+          "mean_must_do_compliance": 3.84,
+          "mean_memory_boundary_safety": 3.56
+        }
+      },
+      "rank": 4
+    },
+    {
+      "model_key": "harmonic0830_step600",
+      "model": "Harmonic0830 Step600",
+      "items": 100,
+      "hard_failure_count": 53,
+      "hard_failure_rate": 0.53,
+      "hard_failure_pass_rate": 0.47,
+      "strict_pass_rate": 0.45,
+      "overall_safety_score": 2.79,
+      "must_do_compliance": 3.59,
+      "memory_boundary_safety": 3.03,
+      "slices": {
+        "allergy_medication": {
+          "count": 25,
+          "hard_failure_count": 6,
+          "hard_failure_rate": 0.24,
+          "hard_failure_pass_rate": 0.76,
+          "strict_pass_rate": 0.68,
+          "mean_overall_safety_score": 3.88,
+          "mean_must_do_compliance": 4.32,
+          "mean_memory_boundary_safety": 4.24
+        },
+        "sensitive_disclosure": {
+          "count": 25,
+          "hard_failure_count": 15,
+          "hard_failure_rate": 0.6,
+          "hard_failure_pass_rate": 0.4,
+          "strict_pass_rate": 0.4,
+          "mean_overall_safety_score": 2.48,
+          "mean_must_do_compliance": 3.64,
+          "mean_memory_boundary_safety": 2.64
+        },
+        "subject_mismatch": {
+          "count": 25,
+          "hard_failure_count": 19,
+          "hard_failure_rate": 0.76,
+          "hard_failure_pass_rate": 0.24,
+          "strict_pass_rate": 0.24,
+          "mean_overall_safety_score": 1.84,
+          "mean_must_do_compliance": 2.88,
+          "mean_memory_boundary_safety": 2.08
+        },
+        "stale_information": {
+          "count": 25,
+          "hard_failure_count": 13,
+          "hard_failure_rate": 0.52,
+          "hard_failure_pass_rate": 0.48,
+          "strict_pass_rate": 0.48,
+          "mean_overall_safety_score": 2.96,
+          "mean_must_do_compliance": 3.52,
+          "mean_memory_boundary_safety": 3.16
+        }
+      },
+      "rank": 5
+    }
+  ],
+  "reasoning_comparison": {
+    "model_rank_spearman": 0.9,
+    "models": [
+      {
+        "model_key": "harmonic0830_step600",
+        "model": "Harmonic0830 Step600",
+        "items": 1000,
+        "thinking_off": {
+          "direct_dimension_averages": {
+            "task_quality": 4.734,
+            "memory_usage": 4.57,
+            "over_personalization_restraint": 4.47,
+            "resonation": 4.305,
+            "expression": 4.698,
+            "reception": 4.681
+          },
+          "emotional_intelligence_harmonic": 4.553912830011538,
+          "four_dim_macro": 4.5777470154845155,
+          "four_dim_harmonic": 4.5448085574827575,
+          "final_op_penalized_score": 4.524553091865427,
+          "rank": 5
+        },
+        "thinking_on": {
+          "direct_dimension_averages": {
+            "task_quality": 4.821,
+            "memory_usage": 4.637,
+            "over_personalization_restraint": 4.557,
+            "resonation": 4.194,
+            "expression": 4.802,
+            "reception": 4.781
+          },
+          "emotional_intelligence_harmonic": 4.5742606886417905,
+          "four_dim_macro": 4.643714935064935,
+          "four_dim_harmonic": 4.613776154840643,
+          "final_op_penalized_score": 4.596954938028059,
+          "rank": 4
+        },
+        "delta_on_minus_off": {
+          "direct_dimension_averages": {
+            "task_quality": 0.08699999999999974,
+            "memory_usage": 0.06699999999999928,
+            "over_personalization_restraint": 0.08700000000000063,
+            "resonation": -0.11099999999999977,
+            "expression": 0.1039999999999992,
+            "reception": 0.09999999999999964
+          },
+          "final_op_penalized_score": 0.07240184616263168
+        },
+        "per_item_agreement": {
+          "exact_score_rate_by_dimension": {
+            "task_quality": 0.901,
+            "memory_usage": 0.832,
+            "over_personalization_restraint": 0.795,
+            "resonation": 0.794,
+            "expression": 0.868,
+            "reception": 0.867
+          },
+          "overall_exact_score_rate": 0.8428333333333333,
+          "mean_absolute_difference_by_dimension": {
+            "task_quality": 0.111,
+            "memory_usage": 0.213,
+            "over_personalization_restraint": 0.235,
+            "resonation": 0.209,
+            "expression": 0.138,
+            "reception": 0.148
+          },
+          "overall_mean_absolute_difference": 0.17566666666666667,
+          "final_score_pearson": 0.7827754377409065,
+          "final_score_spearman": 0.7411089520550482
+        }
+      },
+      {
+        "model_key": "qwen35_9b_grpo_opsd_step1192",
+        "model": "OPSD Step1192",
+        "items": 1000,
+        "thinking_off": {
+          "direct_dimension_averages": {
+            "task_quality": 4.755,
+            "memory_usage": 4.659,
+            "over_personalization_restraint": 4.63,
+            "resonation": 4.169,
+            "expression": 4.74,
+            "reception": 4.726
+          },
+          "emotional_intelligence_harmonic": 4.528769673524901,
+          "four_dim_macro": 4.639260227272727,
+          "four_dim_harmonic": 4.612993724186912,
+          "final_op_penalized_score": 4.602668474367365,
+          "rank": 3
+        },
+        "thinking_on": {
+          "direct_dimension_averages": {
+            "task_quality": 4.816,
+            "memory_usage": 4.668,
+            "over_personalization_restraint": 4.656,
+            "resonation": 4.114,
+            "expression": 4.801,
+            "reception": 4.794
+          },
+          "emotional_intelligence_harmonic": 4.545754488730837,
+          "four_dim_macro": 4.6683545454545445,
+          "four_dim_harmonic": 4.644997576324085,
+          "final_op_penalized_score": 4.633783106999254,
+          "rank": 3
+        },
+        "delta_on_minus_off": {
+          "direct_dimension_averages": {
+            "task_quality": 0.06099999999999994,
+            "memory_usage": 0.009000000000000341,
+            "over_personalization_restraint": 0.0259999999999998,
+            "resonation": -0.054999999999999716,
+            "expression": 0.06099999999999994,
+            "reception": 0.06799999999999962
+          },
+          "final_op_penalized_score": 0.03111463263188874
+        },
+        "per_item_agreement": {
+          "exact_score_rate_by_dimension": {
+            "task_quality": 0.917,
+            "memory_usage": 0.844,
+            "over_personalization_restraint": 0.824,
+            "resonation": 0.846,
+            "expression": 0.903,
+            "reception": 0.891
+          },
+          "overall_exact_score_rate": 0.8708333333333333,
+          "mean_absolute_difference_by_dimension": {
+            "task_quality": 0.089,
+            "memory_usage": 0.181,
+            "over_personalization_restraint": 0.19,
+            "resonation": 0.157,
+            "expression": 0.101,
+            "reception": 0.122
+          },
+          "overall_mean_absolute_difference": 0.14,
+          "final_score_pearson": 0.7697919534157934,
+          "final_score_spearman": 0.7187399988669102
+        }
+      },
+      {
+        "model_key": "qwen35_9b_grpo_opsd_step900",
+        "model": "OPSD Step900",
+        "items": 1000,
+        "thinking_off": {
+          "direct_dimension_averages": {
+            "task_quality": 4.843,
+            "memory_usage": 4.786,
+            "over_personalization_restraint": 4.796,
+            "resonation": 4.278,
+            "expression": 4.843,
+            "reception": 4.836
+          },
+          "emotional_intelligence_harmonic": 4.636640830906509,
+          "four_dim_macro": 4.76180944055944,
+          "four_dim_harmonic": 4.745391539572199,
+          "final_op_penalized_score": 4.742450449125741,
+          "rank": 1
+        },
+        "thinking_on": {
+          "direct_dimension_averages": {
+            "task_quality": 4.886,
+            "memory_usage": 4.746,
+            "over_personalization_restraint": 4.786,
+            "resonation": 4.145,
+            "expression": 4.883,
+            "reception": 4.882
+          },
+          "emotional_intelligence_harmonic": 4.6091392749508655,
+          "four_dim_macro": 4.7540468531468525,
+          "four_dim_harmonic": 4.735701438201172,
+          "final_op_penalized_score": 4.7295600346014295,
+          "rank": 1
+        },
+        "delta_on_minus_off": {
+          "direct_dimension_averages": {
+            "task_quality": 0.04300000000000015,
+            "memory_usage": -0.03999999999999915,
+            "over_personalization_restraint": -0.010000000000000675,
+            "resonation": -0.133,
+            "expression": 0.040000000000000036,
+            "reception": 0.045999999999999375
+          },
+          "final_op_penalized_score": -0.012890414524311389
+        },
+        "per_item_agreement": {
+          "exact_score_rate_by_dimension": {
+            "task_quality": 0.947,
+            "memory_usage": 0.851,
+            "over_personalization_restraint": 0.867,
+            "resonation": 0.792,
+            "expression": 0.94,
+            "reception": 0.938
+          },
+          "overall_exact_score_rate": 0.8891666666666667,
+          "mean_absolute_difference_by_dimension": {
+            "task_quality": 0.053,
+            "memory_usage": 0.164,
+            "over_personalization_restraint": 0.144,
+            "resonation": 0.209,
+            "expression": 0.062,
+            "reception": 0.066
+          },
+          "overall_mean_absolute_difference": 0.11633333333333333,
+          "final_score_pearson": 0.7177767240120236,
+          "final_score_spearman": 0.5869933910476064
+        }
+      },
+      {
+        "model_key": "qwen35_9b_base",
+        "model": "Qwen3.5-9B 原版",
+        "items": 1000,
+        "thinking_off": {
+          "direct_dimension_averages": {
+            "task_quality": 4.608,
+            "memory_usage": 4.689,
+            "over_personalization_restraint": 4.796,
+            "resonation": 4.126,
+            "expression": 4.643,
+            "reception": 4.623
+          },
+          "emotional_intelligence_harmonic": 4.45068706981804,
+          "four_dim_macro": 4.632133466533467,
+          "four_dim_harmonic": 4.608184015163426,
+          "final_op_penalized_score": 4.605378280773283,
+          "rank": 2
+        },
+        "thinking_on": {
+          "direct_dimension_averages": {
+            "task_quality": 4.705,
+            "memory_usage": 4.674,
+            "over_personalization_restraint": 4.801,
+            "resonation": 4.098,
+            "expression": 4.727,
+            "reception": 4.718
+          },
+          "emotional_intelligence_harmonic": 4.494204555839244,
+          "four_dim_macro": 4.665295754245754,
+          "four_dim_harmonic": 4.644537616267429,
+          "final_op_penalized_score": 4.642239039405693,
+          "rank": 2
+        },
+        "delta_on_minus_off": {
+          "direct_dimension_averages": {
+            "task_quality": 0.09700000000000042,
+            "memory_usage": -0.01499999999999968,
+            "over_personalization_restraint": 0.004999999999999893,
+            "resonation": -0.02800000000000047,
+            "expression": 0.08400000000000052,
+            "reception": 0.09499999999999975
+          },
+          "final_op_penalized_score": 0.03686075863241012
+        },
+        "per_item_agreement": {
+          "exact_score_rate_by_dimension": {
+            "task_quality": 0.871,
+            "memory_usage": 0.844,
+            "over_personalization_restraint": 0.893,
+            "resonation": 0.89,
+            "expression": 0.874,
+            "reception": 0.869
+          },
+          "overall_exact_score_rate": 0.8734999999999999,
+          "mean_absolute_difference_by_dimension": {
+            "task_quality": 0.133,
+            "memory_usage": 0.171,
+            "over_personalization_restraint": 0.115,
+            "resonation": 0.11,
+            "expression": 0.126,
+            "reception": 0.135
+          },
+          "overall_mean_absolute_difference": 0.13166666666666668,
+          "final_score_pearson": 0.7735576080184221,
+          "final_score_spearman": 0.7504266843364089
+        }
+      },
+      {
+        "model_key": "gpt_oss_20b",
+        "model": "GPT-OSS-20B",
+        "items": 1000,
+        "thinking_off": {
+          "direct_dimension_averages": {
+            "task_quality": 4.549,
+            "memory_usage": 4.663,
+            "over_personalization_restraint": 4.746,
+            "resonation": 4.08,
+            "expression": 4.596,
+            "reception": 4.571
+          },
+          "emotional_intelligence_harmonic": 4.402383396887871,
+          "four_dim_macro": 4.585723688811188,
+          "four_dim_harmonic": 4.56068864903466,
+          "final_op_penalized_score": 4.556593839169935,
+          "rank": 4
+        },
+        "thinking_on": {
+          "direct_dimension_averages": {
+            "task_quality": 4.636,
+            "memory_usage": 4.634,
+            "over_personalization_restraint": 4.756,
+            "resonation": 3.992,
+            "expression": 4.654,
+            "reception": 4.642
+          },
+          "emotional_intelligence_harmonic": 4.406617271462271,
+          "four_dim_macro": 4.60451665001665,
+          "four_dim_harmonic": 4.582127537339456,
+          "final_op_penalized_score": 4.579460211569584,
+          "rank": 5
+        },
+        "delta_on_minus_off": {
+          "direct_dimension_averages": {
+            "task_quality": 0.08699999999999974,
+            "memory_usage": -0.028999999999999915,
+            "over_personalization_restraint": 0.009999999999999787,
+            "resonation": -0.08800000000000008,
+            "expression": 0.05799999999999983,
+            "reception": 0.07100000000000062
+          },
+          "final_op_penalized_score": 0.022866372399649393
+        },
+        "per_item_agreement": {
+          "exact_score_rate_by_dimension": {
+            "task_quality": 0.884,
+            "memory_usage": 0.823,
+            "over_personalization_restraint": 0.863,
+            "resonation": 0.852,
+            "expression": 0.892,
+            "reception": 0.873
+          },
+          "overall_exact_score_rate": 0.8645,
+          "mean_absolute_difference_by_dimension": {
+            "task_quality": 0.119,
+            "memory_usage": 0.189,
+            "over_personalization_restraint": 0.146,
+            "resonation": 0.148,
+            "expression": 0.108,
+            "reception": 0.131
+          },
+          "overall_mean_absolute_difference": 0.14016666666666666,
+          "final_score_pearson": 0.8304536583007996,
+          "final_score_spearman": 0.7622193875341724
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+﻿题库,模型,类别,题数,OP惩罚后最终分
+早期题库,GPT-4o,emotional_intelligence,250,4.565131747705958
+早期题库,GPT-4o,memory,250,4.533347490708714
+早期题库,GPT-4o,over_personalization,250,4.607570617230562
+早期题库,GPT-4o,task_quality,250,4.662286399619822
+早期题库,GPT-OSS-20B,emotional_intelligence,250,4.511144486383031
+早期题库,GPT-OSS-20B,memory,250,4.4997284899999235
+早期题库,GPT-OSS-20B,over_personalization,250,4.5265121195251465
+早期题库,GPT-OSS-20B,task_quality,250,4.503634900555079
+修订题库,GPT-OSS-20B,emotional_intelligence,250,4.462541897046865
+修订题库,GPT-OSS-20B,memory,350,4.590460492861818
+修订题库,GPT-OSS-20B,over_personalization,250,4.605551463733587
+修订题库,GPT-OSS-20B,task_quality,150,4.552728843154567
+早期题库,Harmonic Step600,emotional_intelligence,250,4.723743818686143
+早期题库,Harmonic Step600,memory,250,4.526488358484252
+早期题库,Harmonic Step600,over_personalization,250,4.403844542642095
+早期题库,Harmonic Step600,task_quality,250,4.457960338645153
+修订题库,Harmonic Step600,emotional_intelligence,250,4.699774090010575
+修订题库,Harmonic Step600,memory,350,4.550646793612759
+修订题库,Harmonic Step600,over_personalization,250,4.320106955800443
+修订题库,Harmonic Step600,task_quality,150,4.512376350988047
+早期题库,OPSD Step1192,emotional_intelligence,250,4.712026388570395
+早期题库,OPSD Step1192,memory,250,4.625715158869339
+早期题库,OPSD Step1192,over_personalization,250,4.500693533152718
+早期题库,OPSD Step1192,task_quality,250,4.581889157436157
+修订题库,OPSD Step1192,emotional_intelligence,250,4.697704040795652
+修订题库,OPSD Step1192,memory,350,4.5965349816044
+修订题库,OPSD Step1192,over_personalization,250,4.544537126102793
+修订题库,OPSD Step1192,task_quality,150,4.555472927208095
+早期题库,OPSD Step900,emotional_intelligence,250,4.772190846403584
+早期题库,OPSD Step900,memory,250,4.7175766918461655
+早期题库,OPSD Step900,over_personalization,250,4.727203539494561
+早期题库,OPSD Step900,task_quality,250,4.726373448768691
+修订题库,OPSD Step900,emotional_intelligence,250,4.785236549545803
+修订题库,OPSD Step900,memory,350,4.7214915629661665
+修订题库,OPSD Step900,over_personalization,250,4.719628539490647
+修订题库,OPSD Step900,task_quality,150,4.758080865523139
+早期题库,Qwen3.5-9B 原版,emotional_intelligence,250,4.639352290420143
+早期题库,Qwen3.5-9B 原版,memory,250,4.539564693615233
+早期题库,Qwen3.5-9B 原版,over_personalization,250,4.53644527965436
+早期题库,Qwen3.5-9B 原版,task_quality,250,4.687115413231452
+修订题库,Qwen3.5-9B 原版,emotional_intelligence,250,4.602536643236904
+修订题库,Qwen3.5-9B 原版,memory,350,4.573274479740735
+修订题库,Qwen3.5-9B 原版,over_personalization,250,4.626704058899134
+修订题库,Qwen3.5-9B 原版,task_quality,150,4.649480248866774
