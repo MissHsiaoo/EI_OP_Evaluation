@@ -2,6 +2,7 @@
 
 ## 版本入口
 
+- **[老师原始要求与完成情况](reports/teacher_requirements/README.md)**：逐项列出已完成、部分完成、未达标和待人工验收内容，附原始审阅表行号及实际文件证据。
 - **[全部模型表现：表格与图](reports/model_performance/README.md)**：14张汇总/明细表、9张图，包含四维、两版十维、Judge对比、归零口径、安全集与thinking对照。全部从真实结果文件生成。
 - 本目录原有 `benchmark/`、`models/`、`summary_table.*`、`reports/benchmark_report.*` 是 **v1 结果快照**，保留不变；新增跨版本表图集中在 `reports/model_performance/`。
 - [`v2/README.md`](v2/README.md) 是 **v2 修订题库与协议交付**：修订后的1000题、独立100题安全集、两版十维 Judge prompt 及可运行实现。现已补充五个模型的 DeepSeek 平衡四维逐题评分、原始回答与汇总。

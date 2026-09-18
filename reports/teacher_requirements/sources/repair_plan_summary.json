@@ -1,0 +1,56 @@
+{
+  "source_workbook": "huawei_eval/harmonic_four_dimension_eval_1000_teacher_revision_v1/input/teacher_review.xlsx",
+  "source_workbook_sha256": "de0d21bd592e0c8772386540038874a6e2838ddeeab148aaafe21cb1e9aa3955",
+  "source_benchmark": "huawei_eval/harmonic_four_dimension_eval_1000_teacher_revision_v1/input/original_benchmark_1000.jsonl",
+  "source_benchmark_sha256": "824c03d9181b08f88204d194fd8ce338fe235341db01bfb95f260cc21cfa2239",
+  "review_rows": 1000,
+  "planned_rows": 166,
+  "review_result_counts": {
+    "PASS": 834,
+    "FAIL": 166
+  },
+  "severity_counts": {
+    "中高": 66,
+    "高": 59,
+    "中": 41
+  },
+  "issue_type_counts": {
+    "动态事实/上下文缺失": 7,
+    "输入缺失": 3,
+    "元数据错误": 1,
+    "无关记忆中含有益信息": 26,
+    "无关记忆中含有益信息；输入缺失；动态事实/上下文缺失": 1,
+    "无关记忆中含有益信息；动态事实/上下文缺失": 1,
+    "无关记忆中含有益信息；输入缺失": 1,
+    "敏感最小披露构念不足": 16,
+    "敏感最小披露构念不足；输入缺失": 1,
+    "敏感最小披露构念不足；动态事实/上下文缺失": 2,
+    "第三方边界歧义": 22,
+    "反推断题中含必要或有益记忆": 30,
+    "相关约束题不完整；输入缺失": 1,
+    "多记忆综合不足；输入缺失": 2,
+    "多记忆综合不足；动态事实/上下文缺失": 1,
+    "多记忆综合不足": 1,
+    "缺少真实的新旧覆盖": 18,
+    "缺少真实的新旧覆盖；query内部不一致": 1,
+    "缺少真实的新旧覆盖；动态事实/上下文缺失": 1,
+    "缺少真实的新旧覆盖；输入缺失": 2,
+    "有效/干扰记忆边界不清": 3,
+    "归属/冲突构念不足": 25
+  },
+  "category_counts": {
+    "task_quality::constraint_following": 4,
+    "task_quality::planning_decision_support": 1,
+    "task_quality::writing_revision": 2,
+    "emotional_intelligence::calibrated_expression": 1,
+    "over_personalization::irrelevant_memory_restraint": 29,
+    "over_personalization::sensitive_minimum_disclosure": 20,
+    "over_personalization::third_party_boundary": 22,
+    "over_personalization::anti_inference_and_source_signaling": 30,
+    "memory::relevant_constraint_integration": 1,
+    "memory::multi_memory_synthesis": 4,
+    "memory::stale_memory_override": 24,
+    "memory::irrelevant_error_suppression": 3,
+    "memory::attribution_and_conflict_resolution": 25
+  }
+}

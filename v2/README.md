@@ -25,7 +25,9 @@
 - `tools/build_metadata.py`：离线验收数据、导出两版 prompt/schema、生成 manifest 和校验值；不调用模型 API。
 - `delivery_manifest.json` / `SHA256SUMS.txt`：本交付版本的数量、协议编号和文件校验信息。
 
-本次新增 `models/` 和 `summary_table.*`。没有发布新题库十维、安全集评分或 `all_models_by_question.jsonl`。仓库根目录同名文件仍属于早期 v1，不能作为新题库的结果。GPT-4o尚无本次修订题库评分，不补入旧题库分数。
+本次新增 `models/` 和 `summary_table.*`。此目录没有发布新题库十维、安全集的完整逐题评分或 `all_models_by_question.jsonl`；已有的旧版十维、安全集与thinking对照汇总另见[模型表现目录](../reports/model_performance/README.md)。仓库根目录同名文件仍属于早期 v1，不能作为新题库的结果。GPT-4o尚无本次修订题库评分，不补入旧题库分数。
+
+老师的原始要求、完成状态和验收缺口见[要求对照清单](../reports/teacher_requirements/README.md)。数据生成及机器验收不等于已完成独立人工双标。
 
 ## 平衡四维结果
 

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "original_rows": 1000,
+  "revised_rows": 1000,
+  "planned_repairs": 166,
+  "accepted_revision_records": 166,
+  "changed_rows": 166,
+  "unchanged_rows": 834,
+  "missing_targets": [],
+  "unexpected_changes": [],
+  "category_counts": {
+    "task_quality": 250,
+    "emotional_intelligence": 250,
+    "over_personalization": 250,
+    "memory": 250
+  },
+  "language_counts": {
+    "zh": 500,
+    "en": 500
+  },
+  "revised_benchmark_sha256": "0d3955eaf2de8f9658f806241ed7efdfbaa386ad00003ae5f8859df97a344757",
+  "revision_records_sha256": "0b5d2bc28156812a30029cbb1237b7e6e36ffe663540ef8e2e0ba944c9778e08"
+}

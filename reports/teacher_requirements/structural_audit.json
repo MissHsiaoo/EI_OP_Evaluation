@@ -1,0 +1,1283 @@
+{
+  "scope": "Published v2 snapshot; mechanical counts are not semantic validation or human sign-off.",
+  "benchmark_sha256": "2f0b6021f36168e0e84d6f187e705f29e79fae82885e33391d534fbf28d280d5",
+  "main_items": 1000,
+  "unique_session_ids": 1000,
+  "category_counts": {
+    "task_quality": 150,
+    "emotional_intelligence": 250,
+    "over_personalization": 250,
+    "memory": 350
+  },
+  "repair_records": 166,
+  "machine_audit_passes": 166,
+  "stale_repairs": 24,
+  "role_annotation_rows": 1000,
+  "ei_targeted_memory_dependent": 175,
+  "ei_controls": 75,
+  "safety_items": 100,
+  "error_label_check": {
+    "pattern": "\\[ERROR[^\\]]*\\]|\\[不确定[^\\]]*\\]|\\[错误[^\\]]*\\]",
+    "categories": {
+      "memory::irrelevant_error_suppression": {
+        "total": 70,
+        "with_explicit_label": 43,
+        "without_explicit_label": 27,
+        "marked_query_ids": [
+          "h4eval_0902:0",
+          "h4eval_0903:0",
+          "h4eval_0904:0",
+          "h4eval_0905:0",
+          "h4eval_0906:0",
+          "h4eval_0907:0",
+          "h4eval_0908:0",
+          "h4eval_0909:0",
+          "h4eval_0910:0",
+          "h4eval_0911:0",
+          "h4eval_0912:0",
+          "h4eval_0914:0",
+          "h4eval_0916:0",
+          "h4eval_0918:0",
+          "h4eval_0921:0",
+          "h4eval_0922:0",
+          "h4eval_0923:0",
+          "h4eval_0924:0",
+          "h4eval_0925:0",
+          "h4eval_0926:0",
+          "h4eval_0927:0",
+          "h4eval_0928:0",
+          "h4eval_0929:0",
+          "h4eval_0930:0",
+          "h4eval_0931:0",
+          "h4eval_0932:0",
+          "h4eval_0933:0",
+          "h4eval_0934:0",
+          "h4eval_0935:0",
+          "h4eval_0936:0",
+          "h4eval_0937:0",
+          "h4eval_0938:0",
+          "h4eval_0939:0",
+          "h4eval_0940:0",
+          "h4eval_0942:0",
+          "h4eval_0943:0",
+          "h4eval_0944:0",
+          "h4eval_0945:0",
+          "h4eval_0946:0",
+          "h4eval_0947:0",
+          "h4eval_0948:0",
+          "h4eval_0949:0",
+          "h4eval_0950:0"
+        ]
+      },
+      "over_personalization::uncertain_error_memory": {
+        "total": 50,
+        "with_explicit_label": 28,
+        "without_explicit_label": 22,
+        "marked_query_ids": [
+          "h4eval_0656:0",
+          "h4eval_0657:0",
+          "h4eval_0658:0",
+          "h4eval_0659:0",
+          "h4eval_0660:0",
+          "h4eval_0661:0",
+          "h4eval_0662:0",
+          "h4eval_0663:0",
+          "h4eval_0664:0",
+          "h4eval_0665:0",
+          "h4eval_0666:0",
+          "h4eval_0667:0",
+          "h4eval_0668:0",
+          "h4eval_0669:0",
+          "h4eval_0670:0",
+          "h4eval_0671:0",
+          "h4eval_0672:0",
+          "h4eval_0673:0",
+          "h4eval_0674:0",
+          "h4eval_0675:0",
+          "h4eval_0686:0",
+          "h4eval_0688:0",
+          "h4eval_0689:0",
+          "h4eval_0696:0",
+          "h4eval_0697:0",
+          "h4eval_0698:0",
+          "h4eval_0699:0",
+          "h4eval_0700:0"
+        ]
+      }
+    },
+    "limitation": "Absence of these literal markers does not prove unambiguous factual reasoning."
+  },
+  "annotation_screening": {
+    "unique_flagged_items": 192,
+    "flag_counts": {
+      "identical_entry_in_must_do_and_must_not_do": 82,
+      "annotation_instruction_text": 100,
+      "bare_role_label_or_placeholder": 20
+    },
+    "items": [
+      {
+        "query_id": "h4eval_0051:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0086:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0087:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0088:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0090:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0131:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0132:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0133:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0134:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0135:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0136:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0137:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0138:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0139:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0140:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0161:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0162:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0163:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0164:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0165:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0176:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0177:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0178:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0179:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0180:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0261:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0262:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0263:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0264:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0265:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0266:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0267:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0268:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0269:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0270:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0291:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0292:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0293:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0294:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0295:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0296:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0297:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0298:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0299:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0300:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0321:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0322:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0323:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0324:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0325:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0326:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0327:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0328:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0329:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0330:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0351:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0352:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0353:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0354:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0355:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0356:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0357:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0358:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0359:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0360:0",
+        "flags": [
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0391:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0401:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0505:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0508:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0509:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0512:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0515:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0516:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0517:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0518:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0519:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0520:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0541:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0542:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0543:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0544:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0545:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0546:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0547:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0548:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0549:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0550:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0571:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0572:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0573:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0574:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0575:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0576:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0577:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0578:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0579:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0580:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do",
+          "bare_role_label_or_placeholder"
+        ]
+      },
+      {
+        "query_id": "h4eval_0611:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0612:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0613:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0614:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0615:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0616:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0618:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0619:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0620:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0631:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0632:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0633:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0634:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0635:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0636:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0637:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0638:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0639:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0640:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0651:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0657:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0659:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0721:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0722:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0726:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0727:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0728:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0729:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0730:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0731:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0732:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0733:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0737:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0739:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0751:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0752:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0753:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0754:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0755:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0756:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0757:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0758:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0759:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0760:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0811:0",
+        "flags": [
+          "identical_entry_in_must_do_and_must_not_do"
+        ]
+      },
+      {
+        "query_id": "h4eval_0821:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0822:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0823:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0824:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0825:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0826:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0827:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0828:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0829:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0830:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0901:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0902:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0903:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0904:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0905:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0906:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0907:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0908:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0909:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0910:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0951:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0952:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0953:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0954:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0955:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0956:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0957:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0958:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0959:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4eval_0960:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0011:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0012:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0013:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0014:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0015:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0016:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0017:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0018:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0019:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0020:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0021:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0022:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0023:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0024:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0025:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0026:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0027:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0028:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0029:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      },
+      {
+        "query_id": "h4v2_mem_0030:0",
+        "flags": [
+          "annotation_instruction_text"
+        ]
+      }
+    ],
+    "limitation": "Flags overlap and require human review; this is not an error rate."
+  }
+}
